@@ -112,15 +112,52 @@ const DATA_URLS = {
 };
 
 async function search(){
-  const year=document.getElementById('year').value;
-  if(!year){alert("Επίλεξε έτος");return;}
+  const year = document.getElementById('year').value;
+  if(!year){
+    alert("Επίλεξε έτος");
+    return;
+  }
 
-  const res=document.getElementById('results');
-  res.innerHTML="Φόρτωση...";
+  const res = document.getElementById('results');
+  res.innerHTML = "Φόρτωση...";
 
-  const r=await fetch(DATA_URLS[year],{cache:"no-store"});
-  const txt=await r.text();
-  const data=JSON.parse(txt);
+  try {
+    const url = DATA_URLS[year];
+    if(!url) throw new Error("Δεν υπάρχει URL για το έτος " + year);
+
+    const r = await fetch(url, { cache: "no-store" });
+    if(!r.ok){
+      throw new Error("HTTP error " + r.status);
+    }
+
+    const txt = await r.text();
+
+    if(!txt.trim()){
+      throw new Error("Κενό JSON αρχείο (" + year + ")");
+    }
+
+    let data;
+    try {
+      data = JSON.parse(txt);
+    } catch (e) {
+      console.error("❌ Σπασμένο JSON για το έτος:", year);
+      console.error(txt.slice(0, 300));
+      throw new Error("Μη έγκυρο JSON (" + year + ")");
+    }
+
+    // ✅ Εδώ είσαι ΠΛΕΟΝ ΑΣΦΑΛΗΣ
+    console.log("Φορτώθηκαν δεδομένα:", data);
+
+    // ΚΑΝΕ Ο,ΤΙ ΘΕΛΕΙΣ ΜΕ ΤΟ data
+    res.innerHTML = "Φορτώθηκαν επιτυχώς δεδομένα για " + year;
+
+  } catch(err){
+    console.error(err);
+    res.innerHTML = "❌ Σφάλμα φόρτωσης";
+    alert("❌ Πρόβλημα φόρτωσης:\n" + err.message);
+  }
+}
+
 
   const out=[];
   Object.entries(data["προβλήματα"]).forEach(([phase,grp])=>{
