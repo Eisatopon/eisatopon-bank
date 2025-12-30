@@ -1,85 +1,427 @@
 {
-  "year": "2010-2011",
-  "προβλήματα": {
-    "Θαλής": {
-      "Β_Γυμνασίου": [
-        { "id": 1, "αριθμός": 1, "statement": "Να υπολογίσετε την τιμή της παράστασης: \\[ A = \\frac{3^6 \\cdot 2^5 - 6^4 \\cdot 3}{3^5 \\cdot 2^4}. \\]" },
-        { "id": 2, "αριθμός": 2, "statement": "Ένας έμπορος αγόρασε ένα είδος με 400 ευρώ. Το πούλησε με κέρδος 25% και με τα χρήματα που εισέπραξε αγόρασε ένα άλλο είδος το οποίο πούλησε με ζημία 20%. Να βρείτε το τελικό κέρδος ή τη ζημία του εμπόρου." },
-        { "id": 3, "αριθμός": 3, "statement": "Δίνεται ισοσκελές τρίγωνο \\(AB\\Gamma\\) με \\(AB = A\\Gamma\\) και \\(\\widehat{A} = 20^\\circ\\). Η διχοτόμος της γωνίας \\(\\widehat{B}\\) τέμνει την πλευρά \\(A\\Gamma\\) στο σημείο \\(\\Delta\\). Να βρείτε τη γωνία \\(\\widehat{A\\Delta B}\\)." },
-        { "id": 4, "αριθμός": 4, "statement": "Να βρείτε δύο διαδοχικούς θετικούς περιττούς ακέραιους, το άθροισμα των τετραγώνων των οποίων είναι 202." }
-      ],
-      "Γ_Γυμνασίου": [
-        { "id": 5, "αριθμός": 1, "statement": "Να υπολογίσετε την τιμή της παράστασης: \\[ A = \\left(\\frac{x^{-3}}{y^2}\\right)^{-2} : \\left(\\frac{x^3}{y^{-4}}\\right)^2 \\cdot \\frac{x^3}{y^2}, \\] όπου \\(x = 2^{-1}\\) και \\(y = 3^{-1}\\)." },
-        { "id": 6, "αριθμός": 2, "statement": "Ο Αλέξης και ο Δημήτρης έχουν μαζί 240 ευρώ. Αν ο Αλέξης δώσει στο Δημήτρη 20 ευρώ, τότε ο Δημήτρης θα έχει διπλάσια χρήματα από τον Αλέξη. Πόσα χρήματα έχει ο καθένας;" },
-        { "id": 7, "αριθμός": 3, "statement": "Δίνεται ισοσκελές τρίγωνο \\(AB\\Gamma\\) με \\(AB = A\\Gamma\\) και \\(\\widehat{A} = 20^\\circ\\). Οι διχοτόμοι των γωνιών \\(B\\) και \\(\\Gamma\\) τέμνονται στο σημείο \\(Z\\). Να βρείτε τη γωνία \\(\\widehat{BZ\\Gamma}\\)." },
-        { "id": 8, "αριθμός": 4, "statement": "Να βρείτε τρεις διαδοχικούς θετικούς περιττούς ακέραιους, το άθροισμα των τετραγώνων των οποίων είναι 515." }
-      ],
-      "Α_Λυκείου": [
-        { "id": 9, "αριθμός": 1, "statement": "Να λυθεί η εξίσωση: \\[ |2x - 1| = |x + 2|. \\]" },
-        { "id": 10, "αριθμός": 2, "statement": "Να λυθεί το σύστημα: \\[ \\begin{cases} \\frac{1}{x} + \\frac{2}{y} = 4 \\\\ \\frac{2}{x} - \\frac{1}{y} = 1 \\end{cases} \\]" },
-        { "id": 11, "αριθμός": 3, "statement": "Δίνεται ορθογώνιο τρίγωνο \\(AB\\Gamma\\) με \\(\\widehat{A} = 90^\\circ\\). Να αποδείξετε ότι \\(\\Delta Z = EH\\)." },
-        { "id": 12, "αριθμός": 4, "statement": "Να αποδείξετε ότι αν \\(n\\) είναι θετικός ακέραιος, τότε ο αριθμός \\(A = n^3 + 2n\\) διαιρείται με το 3." }
-      ],
-      "Β_Λυκείου": [
-        { "id": 13, "αριθμός": 1, "statement": "Αν \\(x + y = 6\\), να αποδείξετε ότι \\(\\frac{1}{x} + \\frac{1}{y} \\ge \\frac{2}{3}\\)." },
-        { "id": 14, "αριθμός": 2, "statement": "Θεωρούμε τρίγωνο \\(AB\\Gamma\\) με \\(\\widehat{A} = 90^\\circ\\). Να αποδείξετε ότι \\(\\Delta Z = AE\\)." },
-        { "id": 15, "αριθμός": 3, "statement": "Αν \\(a,b\\) είναι ρίζες της \\(x^2-6x-1=0\\) και \\(c,d\\) ρίζες της \\(x^2-6x+1=0\\), να υπολογίσετε την τιμή της παράστασης \\(A=(a-c)(b-c)(a-d)(b-d)\\)." },
-        { "id": 16, "αριθμός": 4, "statement": "Να αποδείξετε ότι \\(n^5 + 2n^3 + 3n\\) διαιρείται με το 5." }
-      ],
-      "Γ_Λυκείου": [
-        { "id": 17, "αριθμός": 1, "statement": "Να λυθεί η εξίσωση: \\[ \\sqrt{3x^2 + 5x + 8} = 2x + 1. \\]" },
-        { "id": 18, "αριθμός": 2, "statement": "Αν \\(x^2 + y^2 = 1\\), να αποδείξετε ότι \\(\\frac{1}{x} + \\frac{1}{y} \\ge 2\\sqrt{2}\\)." },
-        { "id": 19, "αριθμός": 3, "statement": "Να βρείτε όλες τις τριάδες θετικών ακεραίων \\((x,y,z)\\) που ικανοποιούν \\(x^2+y^2+z^2-2xy=2010\\)." },
-        { "id": 20, "αριθμός": 4, "statement": "Να αποδείξετε ότι \\(A\\Delta = BE\\)." }
-      ]
+  "academic_year": "2010-2011",
+  "competitions": {
+    "thales": {
+      "name": "Θαλής",
+      "description": "Πανελλήνιος Μαθηματικός Διαγωνισμός Θαλής",
+      "grade_levels": {
+        "gymnasium_2": {
+          "name": "Β' Γυμνασίου",
+          "problems": [
+            {
+              "id": 1,
+              "number": 1,
+              "statement": "Να υπολογίσετε την τιμή της παράστασης:\n\n$$A = \\frac{3^6 \\cdot 2^5 - 6^4 \\cdot 3}{3^5 \\cdot 2^4}.$$",
+              "topics": ["arithmetic", "exponents", "simplification"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 2,
+              "number": 2,
+              "statement": "Ένας έμπορος αγόρασε ένα είδος με $400$ ευρώ. Το πούλησε με κέρδος $25\\%$ και με τα χρήματα που εισέπραξε αγόρασε ένα άλλο είδος το οποίο πούλησε με ζημία $20\\%$. Να βρείτε το τελικό κέρδος ή τη ζημία του εμπόρου.",
+              "topics": ["percentages", "word_problems", "profit_loss"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 3,
+              "number": 3,
+              "statement": "Δίνεται ισοσκελές τρίγωνο $AB\\Gamma$ με $AB = A\\Gamma$ και $\\angle A = 20^\\circ$. Η διχοτόμος της γωνίας $\\angle B$ τέμνει την πλευρά $A\\Gamma$ στο σημείο $\\Delta$. Να βρείτε τη γωνία $\\angle A\\Delta B$.",
+              "topics": ["geometry", "triangles", "isosceles", "angle_bisector"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 4,
+              "number": 4,
+              "statement": "Να βρείτε δύο διαδοχικούς θετικούς περιττούς ακέραιους, το άθροισμα των τετραγώνων των οποίων είναι $202$.",
+              "topics": ["algebra", "equations", "consecutive_integers"],
+              "difficulty": "easy"
+            }
+          ]
+        },
+        "gymnasium_3": {
+          "name": "Γ' Γυμνασίου",
+          "problems": [
+            {
+              "id": 5,
+              "number": 1,
+              "statement": "Να υπολογίσετε την τιμή της παράστασης:\n\n$$A = \\left(\\frac{x^{-3}}{y^2}\\right)^{-2} : \\left(\\frac{x^3}{y^{-4}}\\right)^2 \\cdot \\frac{x^3}{y^2},$$\n\nόπου $x = 2^{-1}$ και $y = 3^{-1}$.",
+              "topics": ["algebra", "exponents", "negative_exponents", "simplification"],
+              "difficulty": "hard"
+            },
+            {
+              "id": 6,
+              "number": 2,
+              "statement": "Ο Αλέξης και ο Δημήτρης έχουν μαζί $240$ ευρώ. Αν ο Αλέξης δώσει στο Δημήτρη $20$ ευρώ, τότε ο Δημήτρης θα έχει διπλάσια χρήματα από τον Αλέξη. Πόσα χρήματα έχει ο καθένας;",
+              "topics": ["algebra", "equations", "word_problems"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 7,
+              "number": 3,
+              "statement": "Δίνεται ισοσκελές τρίγωνο $AB\\Gamma$ με $AB = A\\Gamma$ και $\\angle A = 20^\\circ$. Η διχοτόμος της γωνίας $\\angle B$ τέμνει την πλευρά $A\\Gamma$ στο σημείο $\\Delta$ και η διχοτόμος της γωνίας $\\angle \\Gamma$ τέμνει την πλευρά $AB$ στο σημείο $E$. Οι διχοτόμοι $B\\Delta$ και $\\Gamma E$ τέμνονται στο σημείο $Z$. Να βρείτε τη γωνία $\\angle BZ\\Gamma$.",
+              "topics": ["geometry", "triangles", "angle_bisectors", "isosceles"],
+              "difficulty": "hard"
+            },
+            {
+              "id": 8,
+              "number": 4,
+              "statement": "Να βρείτε τρεις διαδοχικούς θετικούς περιττούς ακέραιους, το άθροισμα των τετραγώνων των οποίων είναι $515$.",
+              "topics": ["algebra", "equations", "consecutive_integers"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        "lyceum_1": {
+          "name": "Α' Λυκείου",
+          "problems": [
+            {
+              "id": 9,
+              "number": 1,
+              "statement": "Να λυθεί η εξίσωση:\n\n$$|2x - 1| = |x + 2|.$$",
+              "topics": ["algebra", "absolute_value", "equations"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 10,
+              "number": 2,
+              "statement": "Να λυθεί το σύστημα:\n\n$$\\begin{cases} \\frac{1}{x} + \\frac{2}{y} = 4 \\\\ \\frac{2}{x} - \\frac{1}{y} = 1 \\end{cases}$$",
+              "topics": ["algebra", "systems", "substitution"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 11,
+              "number": 3,
+              "statement": "Δίνεται ορθογώνιο τρίγωνο $AB\\Gamma$ με $\\angle A = 90^\\circ$. Στις προεκτάσεις των πλευρών $AB$ και $A\\Gamma$ θεωρούμε σημεία $\\Delta$ και $E$ αντίστοιχα, έτσι ώστε $A\\Delta = AE$. Από τα σημεία $\\Delta$ και $E$ φέρουμε κάθετες στις $AB$ και $A\\Gamma$ αντίστοιχα, οι οποίες τέμνουν την $B\\Gamma$ στα σημεία $Z$ και $H$ αντίστοιχα. Να αποδείξετε ότι: $\\Delta Z = EH$.",
+              "topics": ["geometry", "triangles", "right_triangle", "perpendiculars", "proof"],
+              "difficulty": "hard"
+            },
+            {
+              "id": 12,
+              "number": 4,
+              "statement": "Να αποδείξετε ότι αν $n$ είναι θετικός ακέραιος, τότε ο αριθμός $A = n^3 + 2n$ διαιρείται με το $3$.",
+              "topics": ["number_theory", "divisibility", "proof", "induction"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        "lyceum_2": {
+          "name": "Β' Λυκείου",
+          "problems": [
+            {
+              "id": 13,
+              "number": 1,
+              "statement": "Αν $x, y$ είναι θετικοί πραγματικοί αριθμοί για τους οποίους ισχύει $x + y = 6$, να αποδείξετε ότι:\n\n$$\\frac{1}{x} + \\frac{1}{y} \\geq \\frac{2}{3}.$$",
+              "topics": ["inequalities", "am_hm", "proof"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 14,
+              "number": 2,
+              "statement": "Θεωρούμε τρίγωνο $AB\\Gamma$ με $\\angle A = 90^\\circ$ και $AB < A\\Gamma$. Φέρουμε το ύψος $A\\Delta$ και από το $\\Delta$ φέρουμε κάθετη στην $A\\Gamma$ που την τέμνει στο σημείο $E$. Από το σημείο $E$ φέρουμε παράλληλη στην $AB$ που τέμνει την $B\\Gamma$ στο σημείο $Z$. Να αποδείξετε ότι: $\\Delta Z = AE$.",
+              "topics": ["geometry", "triangles", "right_triangle", "parallel_lines", "proof"],
+              "difficulty": "very_hard"
+            },
+            {
+              "id": 15,
+              "number": 3,
+              "statement": "Αν $a, b$ είναι οι ρίζες της εξίσωσης $x^2 - 6x - 1 = 0$ και $c, d$ είναι οι ρίζες της εξίσωσης $x^2 - 6x + 1 = 0$, να υπολογίσετε την τιμή της παράστασης:\n\n$$A = (a-c)(b-c)(a-d)(b-d).$$",
+              "topics": ["algebra", "vietas_formulas", "polynomials"],
+              "difficulty": "hard"
+            },
+            {
+              "id": 16,
+              "number": 4,
+              "statement": "Να αποδείξετε ότι αν $n$ είναι θετικός ακέραιος, τότε ο αριθμός $A = n^5 + 2n^3 + 3n$ διαιρείται με το $5$.",
+              "topics": ["number_theory", "divisibility", "proof", "induction"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        "lyceum_3": {
+          "name": "Γ' Λυκείου",
+          "problems": [
+            {
+              "id": 17,
+              "number": 1,
+              "statement": "Να λυθεί η εξίσωση:\n\n$$\\sqrt{3x^2 + 5x + 8} = 2x + 1.$$",
+              "topics": ["algebra", "equations", "radicals"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 18,
+              "number": 2,
+              "statement": "Αν για τους θετικούς πραγματικούς αριθμούς $x, y$ ισχύει $x^2 + y^2 = 1$, να αποδείξετε ότι:\n\n$$\\frac{1}{x} + \\frac{1}{y} \\geq 2\\sqrt{2}.$$",
+              "topics": ["inequalities", "cauchy_schwarz", "proof"],
+              "difficulty": "hard"
+            },
+            {
+              "id": 19,
+              "number": 3,
+              "statement": "Να βρείτε όλες τις τριάδες θετικών ακεραίων $(x, y, z)$ που ικανοποιούν την εξίσωση:\n\n$$x^2 + y^2 + z^2 - 2xy = 2010.$$",
+              "topics": ["number_theory", "diophantine_equations"],
+              "difficulty": "very_hard"
+            },
+            {
+              "id": 20,
+              "number": 4,
+              "statement": "Δίνεται ισοσκελές τρίγωνο $AB\\Gamma$ με $AB = A\\Gamma$ και $\\angle A = 100^\\circ$. Το ύψος από την κορυφή $A$ τέμνει την πλευρά $B\\Gamma$ στο σημείο $\\Delta$. Θεωρούμε σημείο $E$ στην πλευρά $AB$ τέτοιο ώστε $\\angle E\\Gamma B = 30^\\circ$. Να αποδείξετε ότι: $A\\Delta = BE$.",
+              "topics": ["geometry", "triangles", "isosceles", "angles", "proof"],
+              "difficulty": "very_hard"
+            }
+          ]
+        }
+      }
     },
-
-    "Ευκλείδης": {
-      "Β_Γυμνασίου": [
-        { "id": 21, "αριθμός": 1, "statement": "Να υπολογίσετε την τιμή της παράστασης \\(\\prod_{k=2}^{100}(1-1/k)\\)." },
-        { "id": 22, "αριθμός": 2, "statement": "Έμπορος με 70 κιβώτια πορτοκάλια. Να βρείτε την τιμή αγοράς." },
-        { "id": 23, "αριθμός": 3, "statement": "Κίνηση αυτοκινήτου με μεταβολές ταχύτητας ±5 km/h. Να βρείτε την αρχική ταχύτητα." },
-        { "id": 24, "αριθμός": 4, "statement": "Ορθογώνιο τρίγωνο 30°–60°. Να αποδείξετε ότι \\(AE = 2A\\Gamma\\)." }
-      ],
-      "Γ_Γυμνασίου": [
-        { "id": 25, "αριθμός": 1, "statement": "Να λύσετε την εξίσωση \\((x^2-6x+4)(x^2-6x+5)=12\\)." },
-        { "id": 26, "αριθμός": 2, "statement": "Αν \\(x^2+y^2+4xy=9\\), να αποδείξετε ότι \\(x+y\\le3\\)." },
-        { "id": 27, "αριθμός": 3, "statement": "Να βρείτε όλα τα ζεύγη \\((x,y)\\) με \\(x^2-y^2=2009\\)." },
-        { "id": 28, "αριθμός": 4, "statement": "Να αποδείξετε ότι το τρίγωνο \\(B\\Gamma E\\) είναι ισόπλευρο." }
-      ],
-      "Α_Λυκείου": [
-        { "id": 29, "αριθμός": 1, "statement": "Να απλοποιήσετε και να μελετήσετε την παράσταση \\(A\\) που δίνεται." },
-        { "id": 30, "αριθμός": 2, "statement": "Κίνηση αυτοκινήτου με μεταβολές ταχύτητας ±10 km/h. Να βρείτε \\(v_1,t_1\\)." },
-        { "id": 31, "αριθμός": 3, "statement": "Να αποδείξετε ότι το τρίγωνο \\(\\Delta EZ\\) είναι ισοσκελές." },
-        { "id": 32, "αριθμός": 4, "statement": "Να βρείτε όλες τις λύσεις της \\(3x^2-y^2=2009\\)." }
-      ],
-      "Β_Λυκείου": [
-        { "id": 33, "αριθμός": 1, "statement": "Να λύσετε την εξίσωση \\(\\sqrt{2x+5}+\\sqrt{x+3}=4\\)." },
-        { "id": 34, "αριθμός": 2, "statement": "Αν \\(x+y+z=5\\), να αποδείξετε ότι \\(\\frac1x+\\frac1y+\\frac1z\\ge\\frac95\\)." },
-        { "id": 35, "αριθμός": 3, "statement": "Να αποδείξετε ότι \\(B\\Delta \\parallel ME\\)." },
-        { "id": 36, "αριθμός": 4, "statement": "Να βρείτε όλες τις λύσεις της \\(5x^2-y^2=2009\\)." }
-      ],
-      "Γ_Λυκείου": [
-        { "id": 37, "αριθμός": 1, "statement": "Να λύσετε την εξίσωση \\(2\\sqrt{x^2+2}=3x+1\\)." },
-        { "id": 38, "αριθμός": 2, "statement": "Αν \\(xyz=1\\), να αποδείξετε την ανισότητα." },
-        { "id": 39, "αριθμός": 3, "statement": "Να βρείτε όλα τα \\((x,y)\\) με \\(x^3-y^3=3xy+97\\)." },
-        { "id": 40, "αριθμός": 4, "statement": "Να αποδείξετε ότι \\(BZ=A\\Delta\\)." }
-      ]
+    "euclid": {
+      "name": "Ευκλείδης",
+      "description": "Πανελλήνιος Μαθηματικός Διαγωνισμός Ευκλείδης",
+      "grade_levels": {
+        "gymnasium_2": {
+          "name": "Β' Γυμνασίου",
+          "problems": [
+            {
+              "id": 21,
+              "number": 1,
+              "statement": "Να υπολογίσετε την τιμή της παράστασης:\n\n$$A = \\left(1 - \\frac{1}{2}\\right) \\cdot \\left(1 - \\frac{1}{3}\\right) \\cdot \\left(1 - \\frac{1}{4}\\right) \\cdots \\left(1 - \\frac{1}{99}\\right) \\cdot \\left(1 - \\frac{1}{100}\\right).$$",
+              "topics": ["sequences", "products", "telescoping"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 22,
+              "number": 2,
+              "statement": "Ένας έμπορος αγόρασε $70$ κιβώτια με πορτοκάλια. Το καθένα περιείχε $50$ πορτοκάλια. Τα $30$ κιβώτια τα πούλησε με $80$ λεπτά το πορτοκάλι, τα $20$ κιβώτια τα πούλησε με $70$ λεπτά το πορτοκάλι και τα υπόλοιπα $20$ κιβώτια τα πούλησε με $60$ λεπτά το πορτοκάλι. Αν το κέρδος του έμπορου ήταν $25\\%$ πάνω στην τιμή αγοράς, να βρείτε πόσο αγόρασε το κάθε κιβώτι με τα πορτοκάλια.",
+              "topics": ["word_problems", "percentages", "profit_loss"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 23,
+              "number": 3,
+              "statement": "Ένα αυτοκίνητο κινείται με σταθερή ταχύτητα $v_1$ και διανύει μια διαδρομή σε χρόνο $t_1$. Αν η ταχύτητά του ήταν $v_2 = v_1 + 5$ km/h, τότε θα διένυε την ίδια διαδρομή σε χρόνο $t_2 = t_1 - 1$ ώρα. Αν η ταχύτητά του ήταν $v_3 = v_1 - 5$ km/h, τότε θα διένυε την ίδια διαδρομή σε χρόνο $t_3 = t_1 + 1$ ώρα. Να βρείτε την ταχύτητα $v_1$ και το χρόνο $t_1$.",
+              "topics": ["word_problems", "equations", "speed_distance_time"],
+              "difficulty": "hard"
+            },
+            {
+              "id": 24,
+              "number": 4,
+              "statement": "Δίνεται ορθογώνιο τρίγωνο $AB\\Gamma$ με $\\angle A = 90^\\circ$, $\\angle B = 60^\\circ$ και $\\angle \\Gamma = 30^\\circ$. Στην προέκταση της πλευράς $AB$ προς το μέρος του $B$, θεωρούμε σημείο $\\Delta$ τέτοιο ώστε $B\\Delta = B\\Gamma$. Από το σημείο $\\Delta$ φέρουμε κάθετη στην $AB$ που τέμνει την πλευρά $B\\Gamma$ στο σημείο $E$. Να αποδείξετε ότι: $AE = 2A\\Gamma$.",
+              "topics": ["geometry", "triangles", "right_triangle", "30_60_90", "proof"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        "gymnasium_3": {
+          "name": "Γ' Γυμνασίου",
+          "problems": [
+            {
+              "id": 25,
+              "number": 1,
+              "statement": "Να λύσετε την εξίσωση:\n\n$$(x^2 - 6x + 4)(x^2 - 6x + 5) = 12.$$",
+              "topics": ["algebra", "equations", "substitution"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 26,
+              "number": 2,
+              "statement": "Αν $x, y$ είναι θετικοί πραγματικοί αριθμοί που ικανοποιούν τη σχέση $x^2 + y^2 + 4xy = 9$, να αποδείξετε ότι: $x + y \\leq 3$.",
+              "topics": ["inequalities", "algebra", "proof"],
+              "difficulty": "hard"
+            },
+            {
+              "id": 27,
+              "number": 3,
+              "statement": "Να βρείτε όλα τα ζεύγη θετικών ακεραίων $(x, y)$ που ικανοποιούν την εξίσωση:\n\n$$x^2 - y^2 = 2009.$$",
+              "topics": ["number_theory", "diophantine_equations", "difference_of_squares"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 28,
+              "number": 4,
+              "statement": "Δίνεται ορθογώνιο τρίγωνο $AB\\Gamma$ με $\\angle A = 90^\\circ$ και $\\angle B = 60^\\circ$. Από το σημείο $A$ φέρουμε την κάθετη στην $B\\Gamma$ που την τέμνει στο σημείο $\\Delta$. Στην προέκταση της $A\\Delta$ προς το μέρος του $\\Delta$, θεωρούμε σημείο $E$ τέτοιο ώστε $\\Delta E = A\\Gamma$. Να αποδείξετε ότι το τρίγωνο $B\\Gamma E$ είναι ισόπλευρο.",
+              "topics": ["geometry", "triangles", "equilateral", "proof"],
+              "difficulty": "very_hard"
+            }
+          ]
+        },
+        "lyceum_1": {
+          "name": "Α' Λυκείου",
+          "problems": [
+            {
+              "id": 29,
+              "number": 1,
+              "statement": "Δίνεται η παράσταση:\n\n$$A = \\frac{x^3 + 8}{x^2 - 2x + 4} \\cdot \\frac{x^2 - x + 1}{x^2 - 4} \\cdot \\frac{x+2}{x^3 - 1},$$\n\nόπου $x$ πραγματικός αριθμός διάφορος του $-2, 1, 2$.\n\n(α) Να απλοποιήσετε την παράσταση $A$.\n\n(β) Να βρείτε για ποιες τιμές του $x$ η τιμή της $A$ είναι μεγαλύτερη του $1$.",
+              "topics": ["algebra", "factorization", "rational_expressions", "inequalities"],
+              "difficulty": "hard"
+            },
+            {
+              "id": 30,
+              "number": 2,
+              "statement": "Ένα αυτοκίνητο κινείται με σταθερή ταχύτητα $v_1$ και διανύει μια διαδρομή σε χρόνο $t_1$. Αν η ταχύτητά του ήταν $v_2 = v_1 + 10$ km/h, τότε θα διένυε την ίδια διαδρομή σε χρόνο $t_2 = t_1 - 2$ ώρες. Αν η ταχύτητά του ήταν $v_3 = v_1 - 10$ km/h, τότε θα διένυε την ίδια διαδρομή σε χρόνο $t_3 = t_1 + 3$ ώρες. Να βρείτε την ταχύτητα $v_1$ και το χρόνο $t_1$.",
+              "topics": ["word_problems", "equations", "speed_distance_time"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 31,
+              "number": 3,
+              "statement": "Δίνεται τρίγωνο $AB\\Gamma$ με $AB < A\\Gamma < B\\Gamma$. Η διχοτόμος της γωνίας $\\angle A$ τέμνει την πλευρά $B\\Gamma$ στο σημείο $\\Delta$. Από το σημείο $\\Delta$ φέρουμε παράλληλη στην $AB$ που τέμνει την πλευρά $A\\Gamma$ στο σημείο $E$, και από το $\\Delta$ φέρουμε παράλληλη στην $A\\Gamma$ που τέμνει την πλευρά $AB$ στο σημείο $Z$. Να αποδείξετε ότι το τρίγωνο $\\Delta EZ$ είναι ισοσκελές.",
+              "topics": ["geometry", "triangles", "angle_bisector", "parallel_lines", "isosceles"],
+              "difficulty": "very_hard"
+            },
+            {
+              "id": 32,
+              "number": 4,
+              "statement": "Να βρείτε όλα τα ζεύγη θετικών ακεραίων $(x, y)$ που ικανοποιούν την εξίσωση:\n\n$$3x^2 - y^2 = 2009.$$",
+              "topics": ["number_theory", "diophantine_equations", "pell_equation"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        "lyceum_2": {
+          "name": "Β' Λυκείου",
+          "problems": [
+            {
+              "id": 33,
+              "number": 1,
+              "statement": "Να λύσετε την εξίσωση:\n\n$$\\sqrt{2x+5} + \\sqrt{x+3} = 4.$$",
+              "topics": ["algebra", "equations", "radicals"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 34,
+              "number": 2,
+              "statement": "Αν $x, y, z$ είναι θετικοί πραγματικοί αριθμοί που ικανοποιούν τη σχέση $x + y + z = 5$, να αποδείξετε ότι:\n\n$$\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} \\geq \\frac{9}{5}.$$",
+              "topics": ["inequalities", "am_hm", "proof"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 35,
+              "number": 3,
+              "statement": "Δίνεται τραπέζιο $AB\\Gamma\\Delta$ με $AB \\parallel \\Gamma\\Delta$ και $AB > \\Gamma\\Delta$. Θεωρούμε το μέσο $M$ της πλευράς $AB$ και φέρουμε την $M\\Gamma$ που τέμνει τη διαγώνιο $A\\Delta$ στο σημείο $E$. Έστω $Z$ το σημείο τομής των διαγωνίων του τραπεζίου. Να αποδείξετε ότι: $B\\Delta \\parallel ME$.",
+              "topics": ["geometry", "trapezoid", "parallel_lines", "midpoints", "proof"],
+              "difficulty": "very_hard"
+            },
+            {
+              "id": 36,
+              "number": 4,
+              "statement": "Να βρείτε όλα τα ζεύγη θετικών ακεραίων $(x, y)$ που ικανοποιούν την εξίσωση:\n\n$$5x^2 - y^2 = 2009.$$",
+              "topics": ["number_theory", "diophantine_equations"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        "lyceum_3": {
+          "name": "Γ' Λυκείου",
+          "problems": [
+            {
+              "id": 37,
+              "number": 1,
+              "statement": "Να λύσετε την εξίσωση:\n\n$$2\\sqrt{x^2 + 2} = 3x + 1.$$",
+              "topics": ["algebra", "equations", "radicals"],
+              "difficulty": "medium"
+            },
+            {
+              "id": 38,
+              "number": 2,
+              "statement": "Αν $x, y, z$ είναι θετικοί πραγματικοί αριθμοί που ικανοποιούν τη σχέση $xyz = 1$, να αποδείξετε ότι:\n\n$$\\frac{1}{x^3(y+z)} + \\frac{1}{y^3(z+x)} + \\frac{1}{z^3(x+y)} \\geq \\frac{3}{2}.$$",
+              "topics": ["inequalities", "am_gm", "proof"],
+              "difficulty": "very_hard"
+            },
+            {
+              "id": 39,
+              "number": 3,
+              "statement": "Να βρείτε όλα τα ζεύγη θετικών ακεραίων $(x, y)$ που ικανοποιούν την εξίσωση:\n\n$$x^3 - y^3 = 3xy + 97.$$",
+              "topics": ["number_theory", "diophantine_equations", "cubic_equations"],
+              "difficulty": "very_hard"
+            },
+            {
+              "id": 40,
+              "number": 4,
+              "statement": "Δίνεται τρίγωνο $AB\\Gamma$ με $AB = A\\Gamma$. Το ύψος από την κορυφή $B$ τέμνει την πλευρά $A\\Gamma$ στο σημείο $\\Delta$. Θεωρούμε σημείο $E$ στην πλευρά $AB$ τέτοιο ώστε $AE = B\\Delta$. Η κάθετη από το $E$ στην $AB$ τέμνει την πλευρά $B\\Gamma$ στο σημείο $Z$. Να αποδείξετε ότι: $BZ = A\\Delta$.",
+              "topics": ["geometry", "triangles", "isosceles", "perpendiculars", "proof"],
+              "difficulty": "very_hard"
+            }
+          ]
+        }
+      }
     },
-
-    "Αρχιμήδης": {
-      "μικροί": [
-        { "id": 41, "αριθμός": 1, "statement": "Να βρεθούν όλα τα \\((m,n)\\) ώστε \\(m^2+n\\mid mn^2+m+n\\)." },
-        { "id": 42, "αριθμός": 2, "statement": "Ελάχιστο \\(n\\) ώστε \\(2009n\\) τέλειο τετράγωνο." },
-        { "id": 43, "αριθμός": 3, "statement": "Να αποδείξετε ότι \\(BE=A\\Gamma\\)." },
-        { "id": 44, "αριθμός": 4, "statement": "Να αποδείξετε ότι \\(K\\Lambda \\parallel EZ\\)." }
-      ],
-      "μεγάλοι": [
-        { "id": 45, "αριθμός": 1, "statement": "Να βρεθούν όλα τα \\((m,n)\\) ώστε \\(m^2+mn+n^2\\mid mn^2+m+n\\)." },
-        { "id": 46, "αριθμός": 2, "statement": "Ελάχιστο \\(n\\) ώστε \\(2010n\\) τέλειο τετράγωνο." },
-        { "id": 47, "αριθμός": 3, "statement": "Να αποδείξετε ότι ο συντελεστής \\(b\\) είναι θετικός." },
-        { "id": 48, "αριθμός": 4, "statement": "Να αποδείξετε ότι \\(K\\Lambda \\parallel EZ\\)." }
-      ]
+    "archimedes": {
+      "name": "Αρχιμήδης",
+      "description": "Πανελλήνιος Μαθηματικός Διαγωνισμός Αρχιμήδης",
+      "grade_levels": {
+        "gymnasium": {
+          "name": "Γυμνάσιο (Μικροί)",
+          "problems": [
+            {
+              "id": 41,
+              "number": 1,
+              "statement": "Να προσδιορίσετε όλα τα ζεύγη θετικών ακεραίων $(m, n)$ με $m > n$, που είναι τέτοια ώστε ο αριθμός $A = m^2 + n$ να διαιρεί τον αριθμό $B = mn^2 + m + n$.",
+              "topics": ["number_theory", "divisibility", "diophantine_equations"],
+              "difficulty": "hard"
+            },
+            {
+              "id": 42,
+              "number": 2,
+              "statement": "Θεωρούμε τους φυσικούς αριθμούς $n$ τέτοιους ώστε ο αριθμός $2009n$ είναι τέλειο τετράγωνο. Να βρεθεί ο ελάχιστος τέτοιος αριθμός $n$ με την ιδιότητα να μπορεί να γραφεί ως άθροισμα δύο διαδοχικών τετραγώνων.",
+              "topics": ["number_theory", "perfect_squares", "consecutive_squares"],
+              "difficulty": "hard"
+            },
+            {
+              "id": 43,
+              "number": 3,
+              "statement": "Δίνεται τρίγωνο $AB\\Gamma$ με $\\angle A = 90^\\circ$ και $\\angle B > \\angle \\Gamma$. Στην προέκταση της πλευράς $B\\Gamma$ προς το μέρος του $\\Gamma$, θεωρούμε σημείο $\\Delta$ τέτοιο ώστε $\\Gamma\\Delta = AB$. Φέρουμε την κάθετη από το $\\Delta$ στην $A\\Gamma$ που την τέμνει στο σημείο $E$. Να αποδείξετε ότι: $BE = A\\Gamma$.",
+              "topics": ["geometry", "triangles", "right_triangle", "congruence", "proof"],
+              "difficulty": "hard"
+            },
+            {
+              "id": 44,
+              "number": 4,
+              "statement": "Έστω $AB\\Gamma\\Delta$ ένα τετράπλευρο εγγεγραμμένο σε κύκλο. Έστω $E, Z$ τα μέσα των πλευρών $AB$ και $\\Gamma\\Delta$ αντίστοιχα. Οι ευθείες $AZ$ και $\\Delta E$ τέμνονται στο σημείο $K$, ενώ οι ευθείες $BZ$ και $\\Gamma E$ τέμνονται στο σημείο $\\Lambda$. Να αποδείξετε ότι η ευθεία $K\\Lambda$ είναι παράλληλη στην ευθεία $EZ$.",
+              "topics": ["geometry", "cyclic_quadrilateral", "midpoints", "parallel_lines", "proof"],
+              "difficulty": "very_hard"
+            }
+          ]
+        },
+        "lyceum": {
+          "name": "Λύκειο (Μεγάλοι)",
+          "problems": [
+            {
+              "id": 45,
+              "number": 1,
+              "statement": "Να προσδιορίσετε όλα τα ζεύγη θετικών ακεραίων $(m, n)$ με $m > n$, που είναι τέτοια ώστε ο αριθμός $A = m^2 + mn + n^2$ να διαιρεί τον αριθμό $B = mn^2 + m + n$.",
+              "topics": ["number_theory", "divisibility", "diophantine_equations"],
+              "difficulty": "very_hard"
+            },
+            {
+              "id": 46,
+              "number": 2,
+              "statement": "Θεωρούμε τους φυσικούς αριθμούς $n$ τέτοιους ώστε ο αριθμός $2010n$ είναι τέλειο τετράγωνο. Να βρεθεί ο ελάχιστος τέτοιος αριθμός $n$ με την ιδιότητα να μπορεί να γραφεί ως άθροισμα τριών διαδοχικών τετραγώνων.",
+              "topics": ["number_theory", "perfect_squares", "consecutive_squares"],
+              "difficulty": "very_hard"
+            },
+            {
+              "id": 47,
+              "number": 3,
+              "statement": "Έστω $P(x) = x^4 + ax^3 + bx^2 + cx + d$ πολυώνυμο με ακέραιους συντελεστές. Αν το πολυώνυμο $P(x)$ έχει τέσσερις διαφορετικές πραγματικές ρίζες που αποτελούν όρους γεωμετρικής προόδου, να αποδείξετε ότι ο συντελεστής $b$ είναι θετικός.",
+              "topics": ["polynomials", "vietas_formulas", "geometric_progression", "proof"],
+              "difficulty": "very_hard"
+            },
+            {
+              "id": 48,
+              "number": 4,
+              "statement": "Έστω $AB\\Gamma\\Delta$ ένα κυρτό τετράπλευρο με $AB = \\Gamma\\Delta$ και $\\angle AB\\Gamma + \\angle A\\Delta\\Gamma = 180^\\circ$. Έστω $E, Z$ τα μέσα των πλευρών $AB$ και $\\Gamma\\Delta$ αντίστοιχα. Οι ευθείες $AZ$ και $\\Delta E$ τέμνονται στο σημείο $K$, ενώ οι ευθείες $BZ$ και $\\Gamma E$ τέμνονται στο σημείο $\\Lambda$. Να αποδείξετε ότι η ευθεία $K\\Lambda$ είναι παράλληλη στην ευθεία $EZ$.",
+              "topics": ["geometry", "quadrilaterals", "cyclic_conditions", "parallel_lines", "proof"],
+              "difficulty": "very_hard"
+            }
+          ]
+        }
+      }
     }
+  },
+  "metadata": {
+    "total_problems": 48,
+    "total_competitions": 3,
+    "source": "Greek Mathematical Competitions",
+    "language": "el",
+    "math_format": "LaTeX/MathJax",
+    "completeness": "full"
   }
 }
