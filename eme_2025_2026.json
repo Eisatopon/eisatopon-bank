@@ -1,156 +1,92 @@
 {
-  "academic_year": "2025-2026",
-  "competitions": {
-    "thales": {
-      "name": "Θαλής",
-      "description": "Πανελλήνιος Μαθηματικός Διαγωνισμός Θαλής",
-      "date": "2025-11-07",
-      "grade_levels": {
-        "gymnasium_2": {
-          "name": "Β' Γυμνασίου",
-          "problems": [
-            {
-              "id": 1,
-              "number": 1,
-              "statement": "Να υπολογίσετε τις αριθμητικές παραστάσεις:\n\n$$A = \\left( \\frac{(-5)^2 - (-3)^2}{(-4)^2} \\right)^{2025} - \\frac{43}{21}$$\n\nκαι\n\n$$B = ((10 - 5)^2 + (-2)^3 - 18)^{2024} - \\frac{63}{31}$$\n\nκαι να συγκρίνετε τους αριθμούς $A$ και $B$.",
-              "topics": ["arithmetic", "exponents", "order_of_operations", "comparison"],
-              "difficulty": "medium"
-            },
-            {
-              "id": 2,
-              "number": 2,
-              "statement": "Οι θετικοί ακέραιοι $\\alpha, \\beta$, με $\\alpha \\leq \\beta$, έχουν μέγιστο κοινό διαιρέτη $15$ και ελάχιστο κοινό πολλαπλάσιο $60$. Να προσδιορίσετε τις δυνατές τιμές των $\\alpha, \\beta$.",
-              "topics": ["number_theory", "gcd", "lcm"],
-              "difficulty": "medium"
-            },
-            {
-              "id": 3,
-              "number": 3,
-              "statement": "Στο διπλανό σχήμα το τετράπλευρο $AB\\Gamma\\Delta$ είναι τετράγωνο και $O$ είναι το σημείο τομής των διαγωνίων του. Τα ευθύγραμμα τμήματα $B\\Delta$ και $AE$ είναι παράλληλα. Επίσης, τα ευθύγραμμα τμήματα $A\\Gamma$ και $\\Delta E$ είναι παράλληλα. Να αποδείξετε ότι το τετράπλευρο $AO\\Delta E$ είναι τετράγωνο.",
-              "topics": ["geometry", "square", "parallel_lines", "proof"],
-              "difficulty": "hard"
-            }
-          ]
+  "year": "2025-2026",
+  "προβλήματα": {
+    "Θαλής": {
+      "Β_Γυμνασίου": [
+        {
+          "id": 1,
+          "αριθμός": 1,
+          "statement": "Να υπολογίσετε τις αριθμητικές παραστάσεις:\n\n$$A = \\left( \\frac{(-5)^2 - (-3)^2}{(-4)^2} \\right)^{2025} - \\frac{43}{21}$$\n\nκαι\n\n$$B = ((10 - 5)^2 + (-2)^3 - 18)^{2024} - \\frac{63}{31}$$\n\nκαι να συγκρίνετε τους αριθμούς $A$ και $B$."
         },
-        "gymnasium_3": {
-          "name": "Γ' Γυμνασίου",
-          "problems": [
-            {
-              "id": 4,
-              "number": 1,
-              "statement": "Να υπολογίσετε τις αριθμητικές παραστάσεις:\n\n$$A = \\left( \\left( -\\frac{18}{3} \\right)^2 + \\frac{(-2)^2}{3^2} \\right) \\cdot \\frac{1}{78} - \\frac{2}{3}$$\n\n$$B = \\frac{(-18)^8}{3^8} - \\left( -\\frac{1}{6} \\right)^{-8} - \\frac{25}{117}$$\n\nκαι να συγκρίνετε τους αριθμούς $A$ και $B$.",
-              "topics": ["algebra", "exponents", "simplification", "comparison"],
-              "difficulty": "hard"
-            },
-            {
-              "id": 5,
-              "number": 2,
-              "statement": "Δίνονται οι θετικοί ακέραιοι αριθμοί\n\n$$A = \\overline{\\alpha\\beta\\gamma} = 100\\alpha + 10\\beta + \\gamma, \\quad B = \\overline{\\beta\\gamma} = 10\\beta + \\gamma, \\quad \\Gamma = \\overline{\\alpha\\beta} = 10\\alpha + \\beta$$\n\nμε $\\alpha, \\beta \\neq 0$. Αν ο αριθμός $A$ είναι πολλαπλάσιο του $3$, να προσδιορίσετε όλες τις δυνατές τιμές του $A$ για τις οποίες ισχύει η ισότητα:\n\n$$A = B + 8\\Gamma$$",
-              "topics": ["number_theory", "digits", "divisibility", "equations"],
-              "difficulty": "hard"
-            },
-            {
-              "id": 6,
-              "number": 3,
-              "statement": "Στο διπλανό σχήμα το τετράπλευρο $AB\\Gamma\\Delta$ είναι ορθογώνιο και $O$ είναι το σημείο τομής των διαγωνίων του. Η ευθεία $AE$ είναι παράλληλη προς την ευθεία $B\\Delta$ και η ευθεία $E\\Delta$ είναι παράλληλη προς την ευθεία $A\\Gamma$. Να αποδείξετε ότι:\n\n1. Το τετράπλευρο $AO\\Delta E$ είναι ρόμβος.\n\n2. $EB = E\\Gamma$.",
-              "topics": ["geometry", "rectangle", "rhombus", "parallel_lines", "proof"],
-              "difficulty": "very_hard"
-            }
-          ]
+        {
+          "id": 2,
+          "αριθμός": 2,
+          "statement": "Οι θετικοί ακέραιοι $\\alpha, \\beta$, με $\\alpha \\leq \\beta$, έχουν μέγιστο κοινό διαιρέτη $15$ και ελάχιστο κοινό πολλαπλάσιο $60$. Να προσδιορίσετε τις δυνατές τιμές των $\\alpha, \\beta$."
         },
-        "lyceum_1": {
-          "name": "Α' Λυκείου",
-          "problems": [
-            {
-              "id": 7,
-              "number": 1,
-              "statement": "Να βρείτε όλους τους θετικούς ακεραίους $A$ οι οποίοι είναι $2025$ φορές μεγαλύτεροι από το τελευταίο ψηφίο τους.",
-              "topics": ["number_theory", "digits", "divisibility"],
-              "difficulty": "medium"
-            },
-            {
-              "id": 8,
-              "number": 2,
-              "statement": "Αν οι πραγματικοί αριθμοί $x, y$ ικανοποιούν την ισότητα:\n\n$$4x^2 + 9y^2 + x^2 y^2 + 18xy - 4x - 6y + 10 = 0$$\n\nνα βρεθεί η τιμή της παράστασης:\n\n$$A = 8x^3 + 27y^3$$",
-              "topics": ["algebra", "equations", "factorization", "sum_of_cubes"],
-              "difficulty": "very_hard"
-            },
-            {
-              "id": 9,
-              "number": 3,
-              "statement": "Στο τρίγωνο $AB\\Gamma$ είναι $\\angle A = 120^\\circ$ και $A\\Gamma = 2 \\cdot AB$. Αν η μεσοκάθετος της πλευράς $AB$ τέμνει την πλευρά $B\\Gamma$ στο σημείο $\\Delta$, να βρεθεί ο λόγος $\\frac{A\\Delta}{\\Delta\\Gamma}$.",
-              "topics": ["geometry", "triangles", "perpendicular_bisector", "ratios"],
-              "difficulty": "hard"
-            }
-          ]
-        },
-        "lyceum_2": {
-          "name": "Β' Λυκείου",
-          "problems": [
-            {
-              "id": 10,
-              "number": 1,
-              "statement": "Αν οι $a, b$ είναι θετικοί πραγματικοί αριθμοί και η εξίσωση\n\n$$3x^2 - 2(2a + b)x + 2a^2 + 2ab + b^2 - 1 = 0$$\n\nμε άγνωστο το $x$, έχει λύση στους πραγματικούς αριθμούς, να αποδείξετε ότι:\n\n(1). $a^2 + ab + b^2 \\leq \\frac{3}{2}$\n\nκαι\n\n(2). $a + b \\leq \\sqrt{2}$",
-              "topics": ["algebra", "quadratic_equations", "discriminant", "inequalities", "proof"],
-              "difficulty": "very_hard"
-            },
-            {
-              "id": 11,
-              "number": 2,
-              "statement": "Δίνεται ορθογώνιο παραλληλόγραμμο $AB\\Gamma\\Delta$ με $AB < B\\Gamma$, και σημεία $E$ και $Z$ στις πλευρές $A\\Delta$ και $\\Gamma\\Delta$, αντίστοιχα, τέτοια ώστε τα τρίγωνα $BAE$ και $B\\Gamma Z$ να έχουν το ίδιο εμβαδό. Αν επιπλέον ισχύει ότι $AB^2 = AE \\cdot A\\Delta$, να αποδείξετε ότι το τρίγωνο $BEZ$ είναι ορθογώνιο.",
-              "topics": ["geometry", "rectangle", "triangles", "area", "pythagorean_theorem", "proof"],
-              "difficulty": "very_hard"
-            },
-            {
-              "id": 12,
-              "number": 3,
-              "statement": "Ο Γιώργος μοίρασε διαδοχικά $150$ μπίλιες σε $10$ κουτιά $K_1, K_2, \\ldots, K_{10}$, με αυτή τη σειρά, στα οποία έβαλε $a_1, a_2, \\ldots, a_{10}$ μπίλιες, αντίστοιχα, όπου $a_1, a_2, \\ldots, a_{10}$ θετικοί ακέραιοι. Ξεκινώντας να βάζει μπίλιες από το κουτί $K_1$, σε κάθε επόμενο κουτί έβαζε περισσότερες μπίλιες από το προηγούμενο. Αν ο αριθμός από μπίλιες που έβαλε στο πρώτο κουτί είναι μεγαλύτερος ή ίσος από το μισό του αριθμού από μπίλιες που έβαλε στο δέκατο κουτί, να βρεθεί πόσες μπίλιες έβαλε στο έκτο κουτί.",
-              "topics": ["sequences", "inequalities", "optimization", "word_problems"],
-              "difficulty": "very_hard"
-            }
-          ]
-        },
-        "lyceum_3": {
-          "name": "Γ' Λυκείου",
-          "problems": [
-            {
-              "id": 13,
-              "number": 1,
-              "statement": "Έστω $(a_n)_{n \\geq 1}$ μία αριθμητική πρόοδος τέτοια ώστε $a_{m+n} = 103$ και $a_{m-n} = 49$, για κάποιους θετικούς ακέραιους $m > n$. Να βρεθεί η τιμή της διαφοράς $a_{n \\cdot m} - a_n$.",
-              "topics": ["sequences", "arithmetic_progression"],
-              "difficulty": "hard"
-            },
-            {
-              "id": 14,
-              "number": 2,
-              "statement": "Να βρεθούν οι θετικοί ακέραιοι $x, y$ για τους οποίους ισχύει:\n\n$$11x^2 y^2 - y^4 - 25x^4 + 7 = 0$$",
-              "topics": ["number_theory", "diophantine_equations", "quadratic_forms"],
-              "difficulty": "very_hard"
-            },
-            {
-              "id": 15,
-              "number": 3,
-              "statement": "Δίνεται ορθογώνιο παραλληλόγραμμο $AB\\Gamma\\Delta$ με $B\\Gamma = \\lambda \\cdot AB$, για κάποιο $\\lambda > 1$, και σημεία $E$ και $Z$ στις πλευρές $A\\Delta$ και $\\Gamma\\Delta$, αντίστοιχα, τέτοια ώστε η ευθεία $EZ$ να είναι παράλληλη προς την ευθεία $A\\Gamma$ και $\\angle BEZ = 90^\\circ$. Να βρείτε το λόγο των εμβαδών $\\frac{(BEZ)}{(AB\\Gamma\\Delta)}$ συναρτήσει του $\\lambda$.",
-              "topics": ["geometry", "rectangle", "parallel_lines", "area", "optimization"],
-              "difficulty": "very_hard"
-            }
-          ]
+        {
+          "id": 3,
+          "αριθμός": 3,
+          "statement": "Στο διπλανό σχήμα το τετράπλευρο $AB\\Gamma\\Delta$ είναι τετράγωνο και $O$ είναι το σημείο τομής των διαγωνίων του. Τα ευθύγραμμα τμήματα $B\\Delta$ και $AE$ είναι παράλληλα. Επίσης, τα ευθύγραμμα τμήματα $A\\Gamma$ και $\\Delta E$ είναι παράλληλα. Να αποδείξετε ότι το τετράπλευρο $AO\\Delta E$ είναι τετράγωνο."
         }
-      }
+      ],
+      "Γ_Γυμνασίου": [
+        {
+          "id": 4,
+          "αριθμός": 1,
+          "statement": "Να υπολογίσετε τις αριθμητικές παραστάσεις:\n\n$$A = \\left( \\left( -\\frac{18}{3} \\right)^2 + \\frac{(-2)^2}{3^2} \\right) \\cdot \\frac{1}{78} - \\frac{2}{3}$$\n\n$$B = \\frac{(-18)^8}{3^8} - \\left( -\\frac{1}{6} \\right)^{-8} - \\frac{25}{117}$$\n\nκαι να συγκρίνετε τους αριθμούς $A$ και $B$."
+        },
+        {
+          "id": 5,
+          "αριθμός": 2,
+          "statement": "Δίνονται οι θετικοί ακέραιοι αριθμοί\n\n$$A = \\overline{\\alpha\\beta\\gamma} = 100\\alpha + 10\\beta + \\gamma, \\quad B = \\overline{\\beta\\gamma} = 10\\beta + \\gamma, \\quad \\Gamma = \\overline{\\alpha\\beta} = 10\\alpha + \\beta$$\n\nμε $\\alpha, \\beta \\neq 0$. Αν ο αριθμός $A$ είναι πολλαπλάσιο του $3$, να προσδιορίσετε όλες τις δυνατές τιμές του $A$ για τις οποίες ισχύει η ισότητα:\n\n$$A = B + 8\\Gamma$$"
+        },
+        {
+          "id": 6,
+          "αριθμός": 3,
+          "statement": "Στο διπλανό σχήμα το τετράπλευρο $AB\\Gamma\\Delta$ είναι ορθογώνιο και $O$ είναι το σημείο τομής των διαγωνίων του. Η ευθεία $AE$ είναι παράλληλη προς την ευθεία $B\\Delta$ και η ευθεία $E\\Delta$ είναι παράλληλη προς την ευθεία $A\\Gamma$. Να αποδείξετε ότι:\n\n1. Το τετράπλευρο $AO\\Delta E$ είναι ρόμβος.\n\n2. $EB = E\\Gamma$."
+        }
+      ],
+      "Α_Λυκείου": [
+        {
+          "id": 7,
+          "αριθμός": 1,
+          "statement": "Να βρείτε όλους τους θετικούς ακεραίους $A$ οι οποίοι είναι $2025$ φορές μεγαλύτεροι από το τελευταίο ψηφίο τους."
+        },
+        {
+          "id": 8,
+          "αριθμός": 2,
+          "statement": "Αν οι πραγματικοί αριθμοί $x, y$ ικανοποιούν την ισότητα:\n\n$$4x^2 + 9y^2 + x^2 y^2 + 18xy - 4x - 6y + 10 = 0$$\n\nνα βρεθεί η τιμή της παράστασης:\n\n$$A = 8x^3 + 27y^3$$"
+        },
+        {
+          "id": 9,
+          "αριθμός": 3,
+          "statement": "Στο τρίγωνο $AB\\Gamma$ είναι $\\angle A = 120^\\circ$ και $A\\Gamma = 2 \\cdot AB$. Αν η μεσοκάθετος της πλευράς $AB$ τέμνει την πλευρά $B\\Gamma$ στο σημείο $\\Delta$, να βρεθεί ο λόγος $\\frac{A\\Delta}{\\Delta\\Gamma}$."
+        }
+      ],
+      "Β_Λυκείου": [
+        {
+          "id": 10,
+          "αριθμός": 1,
+          "statement": "Αν οι $a, b$ είναι θετικοί πραγματικοί αριθμοί και η εξίσωση\n\n$$3x^2 - 2(2a + b)x + 2a^2 + 2ab + b^2 - 1 = 0$$\n\nμε άγνωστο το $x$, έχει λύση στους πραγματικούς αριθμούς, να αποδείξετε ότι:\n\n(1). $a^2 + ab + b^2 \\leq \\frac{3}{2}$\n\nκαι\n\n(2). $a + b \\leq \\sqrt{2}$"
+        },
+        {
+          "id": 11,
+          "αριθμός": 2,
+          "statement": "Δίνεται ορθογώνιο παραλληλόγραμμο $AB\\Gamma\\Delta$ με $AB < B\\Gamma$, και σημεία $E$ και $Z$ στις πλευρές $A\\Delta$ και $\\Gamma\\Delta$, αντίστοιχα, τέτοια ώστε τα τρίγωνα $BAE$ και $B\\Gamma Z$ να έχουν το ίδιο εμβαδό. Αν επιπλέον ισχύει ότι $AB^2 = AE \\cdot A\\Delta$, να αποδείξετε ότι το τρίγωνο $BEZ$ είναι ορθογώνιο."
+        },
+        {
+          "id": 12,
+          "αριθμός": 3,
+          "statement": "Ο Γιώργος μοίρασε διαδοχικά $150$ μπίλιες σε $10$ κουτιά $K_1, K_2, \\ldots, K_{10}$, με αυτή τη σειρά, στα οποία έβαλε $a_1, a_2, \\ldots, a_{10}$ μπίλιες, αντίστοιχα, όπου $a_1, a_2, \\ldots, a_{10}$ θετικοί ακέραιοι. Ξεκινώντας να βάζει μπίλιες από το κουτί $K_1$, σε κάθε επόμενο κουτί έβαζε περισσότερες μπίλιες από το προηγούμενο. Αν ο αριθμός από μπίλιες που έβαλε στο πρώτο κουτί είναι μεγαλύτερος ή ίσος από το μισό του αριθμού από μπίλιες που έβαλε στο δέκατο κουτί, να βρεθεί πόσες μπίλιες έβαλε στο έκτο κουτί."
+        }
+      ],
+      "Γ_Λυκείου": [
+        {
+          "id": 13,
+          "αριθμός": 1,
+          "statement": "Έστω $(a_n)_{n \\geq 1}$ μία αριθμητική πρόοδος τέτοια ώστε $a_{m+n} = 103$ και $a_{m-n} = 49$, για κάποιους θετικούς ακέραιους $m > n$. Να βρεθεί η τιμή της διαφοράς $a_{n \\cdot m} - a_n$."
+        },
+        {
+          "id": 14,
+          "αριθμός": 2,
+          "statement": "Να βρεθούν οι θετικοί ακέραιοι $x, y$ για τους οποίους ισχύει:\n\n$$11x^2 y^2 - y^4 - 25x^4 + 7 = 0$$"
+        },
+        {
+          "id": 15,
+          "αριθμός": 3,
+          "statement": "Δίνεται ορθογώνιο παραλληλόγραμμο $AB\\Gamma\\Delta$ με $B\\Gamma = \\lambda \\cdot AB$, για κάποιο $\\lambda > 1$, και σημεία $E$ και $Z$ στις πλευρές $A\\Delta$ και $\\Gamma\\Delta$, αντίστοιχα, τέτοια ώστε η ευθεία $EZ$ να είναι παράλληλη προς την ευθεία $A\\Gamma$ και $\\angle BEZ = 90^\\circ$. Να βρείτε το λόγο των εμβαδών $\\frac{(BEZ)}{(AB\\Gamma\\Delta)}$ συναρτήσει του $\\lambda$."
+        }
+      ]
     }
-  },
-  "metadata": {
-    "total_problems": 15,
-    "total_competitions": 1,
-    "competitions_status": {
-      "thales": "complete (15 problems)",
-      "euclid": "not_yet_held",
-      "archimedes": "not_yet_held"
-    },
-    "note": "FUTURE academic year 2025-2026 - Competition scheduled for November 7, 2025",
-    "source": "Greek Mathematical Competitions",
-    "language": "el",
-    "math_format": "LaTeX/MathJax",
-    "completeness": "partial"
   }
 }
