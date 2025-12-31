@@ -11,8 +11,7 @@
         {
           "id": 2,
           "αριθμός": 2,
-          "statement": "Δίνεται ισόπλευρο τρίγωνο $AB\\Gamma$ πλευράς $\\alpha$. Στο σημείο $A$ φέρουμε ευθύγραμμο τμήμα $A\\Delta = \\alpha$ κάθετο προς την πλευρά $A\\Gamma$. Η προέκταση της διαμέσου $BE$ τέμνει το ευθύγραμμο τμήμα $\\Gamma\\Delta$ στο σημείο $Z$.\n\n(α) Να αποδείξετε ότι $ZA = Z\\Gamma$.\n\n(β) Να βρείτε πόσες μοίρες είναι η γωνία $\\angle A\\Delta B$.",
-          "image": "thalis_2016_B_gymnasiou_2.png"
+          "statement": "Δίνεται ισόπλευρο τρίγωνο $AB\\Gamma$ πλευράς $\\alpha$. Στο σημείο $A$ φέρουμε ευθύγραμμο τμήμα $A\\Delta = \\alpha$ κάθετο προς την πλευρά $A\\Gamma$. Η προέκταση της διαμέσου $BE$ τέμνει το ευθύγραμμο τμήμα $\\Gamma\\Delta$ στο σημείο $Z$.\n\n<div style='text-align: center; margin: 20px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/thalis_2016_B_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: white;'/></div>\n\n(α) Να αποδείξετε ότι $ZA = Z\\Gamma$.\n\n(β) Να βρείτε πόσες μοίρες είναι η γωνία $\\angle A\\Delta B$."
         },
         {
           "id": 3,
@@ -34,8 +33,7 @@
         {
           "id": 6,
           "αριθμός": 2,
-          "statement": "Δίνεται ευθύγραμμο τμήμα $OK = \\alpha$ και δύο κύκλοι ακτίνας $\\alpha$ που έχουν κέντρα στα σημεία $O$ και $K$, οι οποίοι τέμνονται στα σημεία $A$ και $B$. Το σημείο $\\Gamma$ ανήκει στο τόξο $KB$ και η ευθεία $\\Gamma K$ τέμνει τον κύκλο $C_2$ κέντρου $K$ και ακτίνας $\\alpha$ στο σημείο $\\Delta$. Η ευθεία $OK$ τέμνει τον κύκλο $C_2$ κέντρου $K$ και ακτίνας $\\alpha$ στο σημείο $E$. Αν είναι $\\angle KO\\Gamma = 45^\\circ$, να βρείτε:\n\n(α) πόσες μοίρες είναι η γωνία $\\angle K\\Delta E$, και\n\n(β) το εμβαδόν του τριγώνου $O\\Gamma E$ συναρτήσει του $\\alpha$.",
-          "image": "thalis_2016_G_gymnasiou_2.png"
+          "statement": "Δίνεται ευθύγραμμο τμήμα $OK = \\alpha$ και δύο κύκλοι ακτίνας $\\alpha$ που έχουν κέντρα στα σημεία $O$ και $K$, οι οποίοι τέμνονται στα σημεία $A$ και $B$. Το σημείο $\\Gamma$ ανήκει στο τόξο $KB$ και η ευθεία $\\Gamma K$ τέμνει τον κύκλο $C_2$ κέντρου $K$ και ακτίνας $\\alpha$ στο σημείο $\\Delta$. Η ευθεία $OK$ τέμνει τον κύκλο $C_2$ κέντρου $K$ και ακτίνας $\\alpha$ στο σημείο $E$. Αν είναι $\\angle KO\\Gamma = 45^\\circ$, να βρείτε:\n\n<div style='text-align: center; margin: 20px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/thalis_2016_G_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: white;'/></div>\n\n(α) πόσες μοίρες είναι η γωνία $\\angle K\\Delta E$, και\n\n(β) το εμβαδόν του τριγώνου $O\\Gamma E$ συναρτήσει του $\\alpha$."
         },
         {
           "id": 7,
@@ -130,8 +128,7 @@
         {
           "id": 23,
           "αριθμός": 3,
-          "statement": "Δίνεται τετράγωνο $AB\\Gamma\\Delta$ πλευράς $\\alpha$. Προεκτείνουμε την πλευρά $A\\Delta$ κατά τμήμα $\\Delta E = BA$ και την πλευρά $\\Gamma\\Delta$ κατά τμήμα $\\Delta Z = BA$.\n\n(α) Να βρείτε πόσες μοίρες είναι οι γωνίες $\\angle \\Delta BE$ και $\\angle \\Delta ZB$.\n\n(β) Να αποδείξετε ότι οι ευθείες $A\\Gamma$ και $EZ$ είναι παράλληλες.",
-          "image": "euklidis_2017_B_gymnasiou_3.png"
+          "statement": "Δίνεται τετράγωνο $AB\\Gamma\\Delta$ πλευράς $\\alpha$. Προεκτείνουμε την πλευρά $A\\Delta$ κατά τμήμα $\\Delta E = BA$ και την πλευρά $\\Gamma\\Delta$ κατά τμήμα $\\Delta Z = BA$.\n\n<div style='text-align: center; margin: 20px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/euklidis_2017_B_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: white;'/></div>\n\n(α) Να βρείτε πόσες μοίρες είναι οι γωνίες $\\angle \\Delta BE$ και $\\angle \\Delta ZB$.\n\n(β) Να αποδείξετε ότι οι ευθείες $A\\Gamma$ και $EZ$ είναι παράλληλες."
         },
         {
           "id": 24,
@@ -148,8 +145,7 @@
         {
           "id": 26,
           "αριθμός": 2,
-          "statement": "Δίνεται τετράγωνο $AB\\Gamma\\Delta$ πλευράς $\\alpha$. Προεκτείνουμε την πλευρά $A\\Delta$ κατά τμήμα $\\Delta E = BA$ και την πλευρά $\\Gamma\\Delta$ κατά τμήμα $\\Delta Z = BA$. Αν $H$ είναι το μέσο του ευθύγραμμου τμήματος $EZ$, τότε:\n\n(α) Να βρείτε το μήκος του ευθύγραμμου τμήματος $BE$.\n\n(β) Να αποδείξετε ότι το σημείο $\\Delta$ απέχει ίσες αποστάσεις από τις τρεις κορυφές του τριγώνου $A\\Gamma H$\n\n(γ) Να βρείτε το λόγο των εμβαδών των τριγώνων $BEZ$ και $A\\Gamma H$.",
-          "image": "euklidis_2017_G_gymnasiou_2.png"
+          "statement": "Δίνεται τετράγωνο $AB\\Gamma\\Delta$ πλευράς $\\alpha$. Προεκτείνουμε την πλευρά $A\\Delta$ κατά τμήμα $\\Delta E = BA$ και την πλευρά $\\Gamma\\Delta$ κατά τμήμα $\\Delta Z = BA$. Αν $H$ είναι το μέσο του ευθύγραμμου τμήματος $EZ$, τότε:\n\n<div style='text-align: center; margin: 20px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/euklidis_2017_G_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: white;'/></div>\n\n(α) Να βρείτε το μήκος του ευθύγραμμου τμήματος $BE$.\n\n(β) Να αποδείξετε ότι το σημείο $\\Delta$ απέχει ίσες αποστάσεις από τις τρεις κορυφές του τριγώνου $A\\Gamma H$\n\n(γ) Να βρείτε το λόγο των εμβαδών των τριγώνων $BEZ$ και $A\\Gamma H$."
         },
         {
           "id": 27,
