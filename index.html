@@ -95,7 +95,7 @@
 
         .filter-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
             margin-bottom: 25px;
         }
@@ -246,31 +246,6 @@
             color: #388e3c;
         }
 
-        .badge-difficulty {
-            padding: 4px 10px;
-            font-size: 0.75em;
-        }
-
-        .diff-easy {
-            background: #c8e6c9;
-            color: #2e7d32;
-        }
-
-        .diff-medium {
-            background: #fff9c4;
-            color: #f57f17;
-        }
-
-        .diff-hard {
-            background: #ffccbc;
-            color: #d84315;
-        }
-
-        .diff-very_hard {
-            background: #ffcdd2;
-            color: #c62828;
-        }
-
         .card-title {
             font-size: 1.4em;
             color: #667eea;
@@ -282,21 +257,6 @@
             font-size: 1.05em;
             color: #2c3e50;
             line-height: 1.9;
-        }
-
-        .topics-tags {
-            display: flex;
-            gap: 6px;
-            flex-wrap: wrap;
-            margin-top: 15px;
-        }
-
-        .topic-tag {
-            background: #f0f0f0;
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-size: 0.8em;
-            color: #666;
         }
 
         .empty-state {
@@ -357,6 +317,9 @@
                             <option value="">Επιλέξτε έτος</option>
                             <option value="2025-2026">2025-2026</option>
                             <option value="2024-2025">2024-2025</option>
+                            <option value="2023-2024">2023-2024</option>
+                            <option value="2022-2023">2022-2023</option>
+                            <option value="2021-2022">2021-2022</option>
                             <option value="2020-2021">2020-2021</option>
                             <option value="2019-2020">2019-2020</option>
                             <option value="2018-2019">2018-2019</option>
@@ -378,9 +341,9 @@
                         <label>🏅 Φάση Διαγωνισμού</label>
                         <select id="phase" onchange="updateGradeOptions()">
                             <option value="">Όλες οι φάσεις</option>
-                            <option value="thales">Θαλής (Α' Φάση)</option>
-                            <option value="euclid">Ευκλείδης (Β' Φάση)</option>
-                            <option value="archimedes">Αρχιμήδης (Γ' Φάση)</option>
+                            <option value="Θαλής">Θαλής (Α' Φάση)</option>
+                            <option value="Ευκλείδης">Ευκλείδης (Β' Φάση)</option>
+                            <option value="Αρχιμήδης">Αρχιμήδης (Γ' Φάση)</option>
                         </select>
                     </div>
 
@@ -392,13 +355,19 @@
                     </div>
 
                     <div class="filter-item">
-                        <label>🎯 Δυσκολία</label>
-                        <select id="difficulty">
-                            <option value="">Όλες</option>
-                            <option value="easy">Εύκολο</option>
-                            <option value="medium">Μέτριο</option>
-                            <option value="hard">Δύσκολο</option>
-                            <option value="very_hard">Πολύ Δύσκολο</option>
+                        <label>🎯 Αριθμός Θέματος</label>
+                        <select id="problem">
+                            <option value="">Όλα τα θέματα</option>
+                            <option value="1">Θέμα 1</option>
+                            <option value="2">Θέμα 2</option>
+                            <option value="3">Θέμα 3</option>
+                            <option value="4">Θέμα 4</option>
+                            <option value="5">Θέμα 5</option>
+                            <option value="6">Θέμα 6</option>
+                            <option value="7">Θέμα 7</option>
+                            <option value="8">Θέμα 8</option>
+                            <option value="9">Θέμα 9</option>
+                            <option value="10">Θέμα 10</option>
                         </select>
                     </div>
                 </div>
@@ -454,73 +423,63 @@
     </div>
 
     <script>
-        // JSON URLs - LaTeX format
+        // JSON URLs - Converted format (year/προβλήματα structure)
         const DATA_URLS = {
             "2025-2026": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2025_2026_latex.json",
-            "2024-2025": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2024_2025_latex.json",
-            "2020-2021": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2020_2021_latex.json",
-            "2019-2020": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2019_2020_latex.json",
-            "2018-2019": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2018_2019_latex.json",
-            "2017-2018": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2017_2018_latex.json",
-            "2016-2017": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2016_2017_latex.json",
-            "2015-2016": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2015_2016_latex.json",
-            "2014-2015": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2014_2015_latex.json",
-            "2013-2014": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2013_2014_latex.json",
-            "2012-2013": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2012_2013_latex.json",
-            "2011-2012": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2011_2012_latex.json",
-            "2010-2011": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2010_2011_latex.json",
-            "2009-2010": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2009_2010_latex.json",
-            "2007-2008": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2007_2008_latex.json",
-            "2006-2007": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2006_2007_latex.json"
+            "2024-2025": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2024_2025.json",
+            "2023-2024": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2023_2024.json",
+            "2022-2023": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2022_2023.json",
+            "2021-2022": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2021_2022.json",
+            "2020-2021": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2020_2021.json",
+            "2019-2020": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2019_2020.json",
+            "2018-2019": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2018_2019.json",
+            "2017-2018": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2017_2018.json",
+            "2016-2017": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2016_2017.json",
+            "2015-2016": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2015_2016.json",
+            "2014-2015": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2014_2015.json",
+            "2013-2014": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2013_2014.json",
+            "2012-2013": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2012_2013.json",
+            "2011-2012": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2011_2012.json",
+            "2010-2011": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2010_2011.json",
+            "2009-2010": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2009_2010.json",
+            "2007-2008": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2007_2008.json",
+            "2006-2007": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/eme_2006_2007.json"
         };
 
         let allProblems = [];
         let loadedYear = null;
         const selectedProblems = [];
 
-        // Mappings
+        // Grade labels
         const GRADE_LABELS = {
-            "gymnasium_2": "Β' Γυμνασίου",
-            "gymnasium_3": "Γ' Γυμνασίου",
-            "lyceum_1": "Α' Λυκείου",
-            "lyceum_2": "Β' Λυκείου",
-            "lyceum_3": "Γ' Λυκείου",
-            "gymnasium": "Αρχιμήδης (μικροί)",
-            "lyceum": "Αρχιμήδης (μεγάλοι)"
+            "Β_Γυμνασίου": "Β' Γυμνασίου",
+            "Γ_Γυμνασίου": "Γ' Γυμνασίου",
+            "Α_Λυκείου": "Α' Λυκείου",
+            "Β_Λυκείου": "Β' Λυκείου",
+            "Γ_Λυκείου": "Γ' Λυκείου",
+            "μικροί": "Αρχιμήδης (μικροί)",
+            "μεγάλοι": "Αρχιμήδης (μεγάλοι)"
         };
 
-        const PHASE_LABELS = {
-            "thales": "Θαλής",
-            "euclid": "Ευκλείδης",
-            "archimedes": "Αρχιμήδης"
-        };
-
-        const DIFFICULTY_LABELS = {
-            "easy": "Εύκολο",
-            "medium": "Μέτριο",
-            "hard": "Δύσκολο",
-            "very_hard": "Πολύ Δύσκολο"
-        };
-
-        // Update grade options
+        // Update grade options based on phase
         function updateGradeOptions() {
             const phase = document.getElementById("phase").value;
             const gradeSel = document.getElementById("grade");
             
-            if (phase === "archimedes") {
+            if (phase === "Αρχιμήδης") {
                 gradeSel.innerHTML = `
                     <option value="">Όλες οι κατηγορίες</option>
-                    <option value="gymnasium">Αρχιμήδης (μικροί)</option>
-                    <option value="lyceum">Αρχιμήδης (μεγάλοι)</option>
+                    <option value="μικροί">Αρχιμήδης (μικροί)</option>
+                    <option value="μεγάλοι">Αρχιμήδης (μεγάλοι)</option>
                 `;
             } else {
                 gradeSel.innerHTML = `
                     <option value="">Όλες οι τάξεις</option>
-                    <option value="gymnasium_2">Β' Γυμνασίου</option>
-                    <option value="gymnasium_3">Γ' Γυμνασίου</option>
-                    <option value="lyceum_1">Α' Λυκείου</option>
-                    <option value="lyceum_2">Β' Λυκείου</option>
-                    <option value="lyceum_3">Γ' Λυκείου</option>
+                    <option value="Β_Γυμνασίου">Β' Γυμνασίου</option>
+                    <option value="Γ_Γυμνασίου">Γ' Γυμνασίου</option>
+                    <option value="Α_Λυκείου">Α' Λυκείου</option>
+                    <option value="Β_Λυκείου">Β' Λυκείου</option>
+                    <option value="Γ_Λυκείου">Γ' Λυκείου</option>
                 `;
             }
         }
@@ -568,26 +527,20 @@
 
                 allProblems = [];
 
-                const competitions = data.competitions || {};
-                const recordYear = data.academic_year || year;
+                const rawProblems = data["προβλήματα"] || {};
+                const recordYear = data.year || year;
 
-                // Parse new structure
-                Object.entries(competitions).forEach(([phaseKey, phaseData]) => {
-                    const gradeLevels = phaseData.grade_levels || {};
-                    
-                    Object.entries(gradeLevels).forEach(([gradeKey, gradeData]) => {
-                        const problems = gradeData.problems || [];
-                        
-                        problems.forEach(prob => {
+                // Parse converted structure: year/προβλήματα/Θαλής/Β_Γυμνασίου/[...]
+                Object.entries(rawProblems).forEach(([phaseName, perPhaseObj]) => {
+                    Object.entries(perPhaseObj || {}).forEach(([gradeKey, list]) => {
+                        (list || []).forEach((p) => {
                             allProblems.push({
-                                id: prob.id,
+                                id: p.id || (allProblems.length + 1),
                                 year: recordYear,
-                                phase: phaseKey,
+                                phase: phaseName,
                                 grade: gradeKey,
-                                number: prob.number,
-                                statement: prob.statement,
-                                topics: prob.topics || [],
-                                difficulty: prob.difficulty || "medium"
+                                problem_number: String(p["αριθμός"] ?? ""),
+                                content: String(p["statement"] ?? "")
                             });
                         });
                     });
@@ -609,13 +562,13 @@
             const y = document.getElementById("year").value;
             const ph = document.getElementById("phase").value;
             const gr = document.getElementById("grade").value;
-            const diff = document.getElementById("difficulty").value;
+            const pr = document.getElementById("problem").value;
 
             return allProblems.filter(p => {
                 if (y && p.year !== y) return false;
                 if (ph && p.phase !== ph) return false;
                 if (gr && p.grade !== gr) return false;
-                if (diff && p.difficulty !== diff) return false;
+                if (pr && p.problem_number !== pr) return false;
                 return true;
             });
         }
@@ -658,26 +611,20 @@
                     <div class="card-header">
                         <div class="card-badges">
                             <span class="badge badge-year">${p.year}</span>
-                            <span class="badge badge-phase">${PHASE_LABELS[p.phase] || p.phase}</span>
+                            <span class="badge badge-phase">${p.phase}</span>
                             <span class="badge badge-grade">${GRADE_LABELS[p.grade] || p.grade}</span>
-                            <span class="badge badge-difficulty diff-${p.difficulty}">${DIFFICULTY_LABELS[p.difficulty] || p.difficulty}</span>
                         </div>
                         <button class="btn btn-sm btn-outline" onclick="addToExam(${p.id})">✅ Προσθήκη</button>
                     </div>
-                    <div class="card-title">Θέμα ${p.number}</div>
-                    <div class="card-content">${p.statement.replace(/\n\n/g, '<br><br>')}</div>
-                    ${p.topics && p.topics.length > 0 ? `
-                        <div class="topics-tags">
-                            ${p.topics.map(t => `<span class="topic-tag">${t}</span>`).join('')}
-                        </div>
-                    ` : ''}
+                    <div class="card-title">Θέμα ${p.problem_number}</div>
+                    <div class="card-content">${p.content.replace(/\n\n/g, '<br><br>')}</div>
                 </div>
             `).join("");
 
             setTimeout(() => typesetMath(grid), 300);
         }
 
-        // My Exam
+        // My Exam functions
         function addToExam(id) {
             const p = allProblems.find(x => x.id === id);
             if (!p) return;
@@ -717,11 +664,11 @@
             selectedProblems.forEach((p, i) => {
                 html += `<div style="margin:30px 0; padding-bottom:20px; border-bottom:1px solid #dee2e6;">
                     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; flex-wrap:wrap; gap:10px;">
-                        <strong style="font-size:1.2em;">${i + 1}. ${PHASE_LABELS[p.phase]} – ${GRADE_LABELS[p.grade]} – Θέμα ${p.number}</strong>
+                        <strong style="font-size:1.2em;">${i + 1}. ${p.phase} – ${GRADE_LABELS[p.grade]} – Θέμα ${p.problem_number}</strong>
                         <span style="color:#666; font-size:0.9em;">(${p.year})</span>
                         <button class="btn btn-sm btn-danger" onclick="removeFromExam(${p.id})">❌ Αφαίρεση</button>
                     </div>
-                    <div>${p.statement.replace(/\n\n/g, '<br><br>')}</div>
+                    <div>${p.content.replace(/\n\n/g, '<br><br>')}</div>
                 </div>`;
             });
             html += '</div>';
@@ -771,7 +718,7 @@
         function resetFilters() {
             document.getElementById("year").value = "";
             document.getElementById("phase").value = "";
-            document.getElementById("difficulty").value = "";
+            document.getElementById("problem").value = "";
             updateGradeOptions();
             document.getElementById("questionsGrid").innerHTML = '<div class="empty-state"><div class="empty-icon">📋</div><h3>Επιλέξτε φίλτρα</h3></div>';
             document.getElementById("resultsInfo").style.display = "none";
