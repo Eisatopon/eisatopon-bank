@@ -342,8 +342,8 @@
     <div class="main-wrapper">
         <div class="header">
             <div class="header-icon">🏆</div>
-            <h1>Διαγωνισμοί ΕΜΕ</h1>
-            <p>Τράπεζα Θεμάτων – Ελληνική Μαθηματική Εταιρεία</p>
+            <h1>Τράπεζα Θεμάτων ΕΜΕ</h1>
+            <p>Θαλής – Ευκλείδης – Αρχιμήδης (2005–2026)</p>
         </div>
 
         <div class="content">
@@ -454,7 +454,7 @@
     </div>
 
     <script>
-        // 🔗 JSON URLs - ΝΕΑ ΔΟΜΗ (LaTeX format)
+        // JSON URLs - LaTeX format
         const DATA_URLS = {
             "2025-2026": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2025_2026_latex.json",
             "2024-2025": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2024_2025_latex.json",
@@ -621,7 +621,7 @@
         }
 
         // Search
-        window.searchProblems = async function() {
+        function searchProblems() {
             const year = document.getElementById("year").value;
             
             if (!year) {
@@ -632,12 +632,12 @@
             const grid = document.getElementById("questionsGrid");
             grid.innerHTML = '<div class="empty-state"><div class="empty-icon">⏳</div><h3>Φόρτωση...</h3></div>';
 
-            const ok = await loadYearIfNeeded(year);
-            if (!ok) return;
-
-            const filtered = getFilteredProblems();
-            displayProblems(filtered);
-        };
+            loadYearIfNeeded(year).then(ok => {
+                if (!ok) return;
+                const filtered = getFilteredProblems();
+                displayProblems(filtered);
+            });
+        }
 
         function displayProblems(problems) {
             const grid = document.getElementById("questionsGrid");
@@ -678,7 +678,7 @@
         }
 
         // My Exam
-        window.addToExam = function(id) {
+        function addToExam(id) {
             const p = allProblems.find(x => x.id === id);
             if (!p) return;
 
@@ -689,15 +689,15 @@
 
             selectedProblems.push(p);
             renderMyExam();
-        };
+        }
 
-        window.removeFromExam = function(id) {
+        function removeFromExam(id) {
             const i = selectedProblems.findIndex(x => x.id === id);
             if (i > -1) {
                 selectedProblems.splice(i, 1);
                 renderMyExam();
             }
-        };
+        }
 
         function renderMyExam() {
             const panel = document.getElementById("myExamPanel");
@@ -730,22 +730,22 @@
             setTimeout(() => typesetMath(panel), 300);
         }
 
-        window.printMyExam = () => {
+        function printMyExam() {
             if (!selectedProblems.length) {
                 alert("⚠️ Δεν έχετε επιλέξει θέματα");
                 return;
             }
             window.print();
-        };
+        }
 
-        window.clearMyExam = () => {
+        function clearMyExam() {
             if (!confirm("Θέλετε να διαγράψετε όλα τα θέματα;")) return;
             selectedProblems.length = 0;
             renderMyExam();
             document.getElementById("qrPanel").style.display = "none";
-        };
+        }
 
-        window.generateQRCode = function() {
+        function generateQRCode() {
             if (!selectedProblems.length) {
                 alert("⚠️ Πρώτα προσθέστε θέματα");
                 return;
@@ -766,19 +766,19 @@
             document.getElementById("shareUrl").textContent = url;
             document.getElementById("qrPanel").style.display = "block";
             document.getElementById("qrPanel").scrollIntoView({ behavior: "smooth" });
-        };
+        }
 
-        window.resetFilters = function() {
+        function resetFilters() {
             document.getElementById("year").value = "";
             document.getElementById("phase").value = "";
             document.getElementById("difficulty").value = "";
             updateGradeOptions();
             document.getElementById("questionsGrid").innerHTML = '<div class="empty-state"><div class="empty-icon">📋</div><h3>Επιλέξτε φίλτρα</h3></div>';
             document.getElementById("resultsInfo").style.display = "none";
-        };
+        }
 
         // Initialize
-        document.addEventListener("DOMContentLoaded", () => {
+        document.addEventListener("DOMContentLoaded", function() {
             updateGradeOptions();
         });
     </script>
