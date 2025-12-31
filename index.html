@@ -259,6 +259,38 @@
             line-height: 1.9;
         }
 
+        /* ====== CSS FIX: Μείωση κενών γύρω από μαθηματικές σχέσεις ====== */
+        .MathJax {
+            margin: 0.3em 0 !important;
+        }
+
+        .mjx-chtml {
+            margin: 0.2em 0 !important;
+        }
+
+        mjx-container {
+            margin: 0.3em 0 !important;
+        }
+
+        .katex-display {
+            margin: 0.3em 0 !important;
+        }
+
+        .katex {
+            margin: 0.2em 0 !important;
+        }
+
+        /* Μείωση κενών σε paragraphs γύρω από math */
+        .card-content p {
+            margin: 0.4em 0;
+        }
+
+        /* Αφαίρεση διπλών line breaks */
+        .card-content br + br {
+            display: none;
+        }
+        /* ================================================================= */
+
         .empty-state {
             text-align: center;
             padding: 80px 20px;
