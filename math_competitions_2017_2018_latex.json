@@ -11,7 +11,7 @@
         {
           "id": 2,
           "αριθμός": 2,
-          "statement": "Στο διπλανό σχήμα τα τρίγωνα $AB\\Gamma$ και $ABO$ είναι ισοσκελή με βάση την πλευρά $AB$. Η προέκταση της $\\Gamma O$ τέμνει τη βάση $AB$ στο σημείο $\\Delta$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/thalis_2017_B_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>\n\n(α) Να αποδείξετε ότι η ευθεία $\\Gamma\\Delta$ είναι κάθετη προς την πλευρά $AB$ και το σημείο $\\Delta$ είναι το μέσο της $AB$.\n\n(β) Αν $\\angle OA\\Gamma = \\angle O\\Gamma A = 30^\\circ$, να αποδείξετε ότι η $AO$ είναι διχοτόμος της γωνίας $\\angle BA\\Gamma$."
+          "statement": "Στο διπλανό σχήμα τα τρίγωνα $AB\\Gamma$ και $ABO$ είναι ισοσκελή με βάση την πλευρά $AB$. Η προέκταση της $\\Gamma O$ τέμνει τη βάση $AB$ στο σημείο $\\Delta$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/thalis_2017_B_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>\n\n(α) Να αποδείξετε ότι η ευθεία $\\Gamma\\Delta$ είναι κάθετη προς την πλευρά $AB$ και το σημείο $\\Delta$ είναι το μέσο της $AB$.\n\n(β) Αν $\\angle OA\\Gamma = \\angle O\\Gamma A = 30^\\circ$, να αποδείξετε ότι η $AO$ είναι διχοτόμος της γωνίας $\\angle BA\\Gamma$."
         },
         {
           "id": 3,
@@ -43,7 +43,7 @@
         {
           "id": 8,
           "αριθμός": 4,
-          "statement": "Στο διπλανό σχήμα το τρίγωνο $AB\\Gamma$ είναι ισόπλευρο πλευράς $\\alpha$. Το σχήμα $B\\Delta E\\Gamma$ είναι ορθογώνιο παραλληλόγραμμο με την πλευρά $B\\Delta = \\frac{\\alpha}{2}$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/thalis_2017_G_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>\n\n(α) Να αποδείξετε ότι $A\\Delta = AE$.\n\n(β) Να υπολογίσετε συναρτήσει του $\\alpha$ τα εμβαδά των τριγώνων $AB\\Delta$ και $A\\Delta\\Gamma$."
+          "statement": "Στο διπλανό σχήμα το τρίγωνο $AB\\Gamma$ είναι ισόπλευρο πλευράς $\\alpha$. Το σχήμα $B\\Delta E\\Gamma$ είναι ορθογώνιο παραλληλόγραμμο με την πλευρά $B\\Delta = \\frac{\\alpha}{2}$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/thalis_2017_G_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>\n\n(α) Να αποδείξετε ότι $A\\Delta = AE$.\n\n(β) Να υπολογίσετε συναρτήσει του $\\alpha$ τα εμβαδά των τριγώνων $AB\\Delta$ και $A\\Delta\\Gamma$."
         }
       ],
       "Α_Λυκείου": [
