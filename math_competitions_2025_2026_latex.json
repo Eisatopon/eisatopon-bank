@@ -16,7 +16,7 @@
         {
           "id": 3,
           "αριθμός": 3,
-          "statement": "Στο διπλανό σχήμα το τετράπλευρο $AB\\Gamma\\Delta$ είναι τετράγωνο και $O$ είναι το σημείο τομής των διαγωνίων του. Τα ευθύγραμμα τμήματα $B\\Delta$ και $AE$ είναι παράλληλα. Επίσης, τα ευθύγραμμα τμήματα $A\\Gamma$ και $\\Delta E$ είναι παράλληλα. Να αποδείξετε ότι το τετράπλευρο $AO\\Delta E$ είναι τετράγωνο."
+          "statement": "Στο διπλανό σχήμα το τετράπλευρο $AB\\Gamma\\Delta$ είναι τετράγωνο και $O$ είναι το σημείο τομής των διαγωνίων του. Τα ευθύγραμμα τμήματα $B\\Delta$ και $AE$ είναι παράλληλα. Επίσης, τα ευθύγραμμα τμήματα $A\\Gamma$ και $\\Delta E$ είναι παράλληλα.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2025_B_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>\n\nΝα αποδείξετε ότι το τετράπλευρο $AO\\Delta E$ είναι τετράγωνο."
         }
       ],
       "Γ_Γυμνασίου": [
@@ -33,7 +33,7 @@
         {
           "id": 6,
           "αριθμός": 3,
-          "statement": "Στο διπλανό σχήμα το τετράπλευρο $AB\\Gamma\\Delta$ είναι ορθογώνιο και $O$ είναι το σημείο τομής των διαγωνίων του. Η ευθεία $AE$ είναι παράλληλη προς την ευθεία $B\\Delta$ και η ευθεία $E\\Delta$ είναι παράλληλη προς την ευθεία $A\\Gamma$. Να αποδείξετε ότι:\n\n1. Το τετράπλευρο $AO\\Delta E$ είναι ρόμβος.\n\n2. $EB = E\\Gamma$."
+          "statement": "Στο διπλανό σχήμα το τετράπλευρο $AB\\Gamma\\Delta$ είναι ορθογώνιο και $O$ είναι το σημείο τομής των διαγωνίων του. Η ευθεία $AE$ είναι παράλληλη προς την ευθεία $B\\Delta$ και η ευθεία $E\\Delta$ είναι παράλληλη προς την ευθεία $A\\Gamma$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2025_G_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>\n\nΝα αποδείξετε ότι:\n\n1. Το τετράπλευρο $AO\\Delta E$ είναι ρόμβος.\n\n2. $EB = E\\Gamma$."
         }
       ],
       "Α_Λυκείου": [
