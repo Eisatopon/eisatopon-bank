@@ -133,7 +133,7 @@
         {
           "id": 24,
           "αριθμός": 4,
-          "statement": "Στο διπλανό σχήμα το τρίγωνο $AB\\Gamma$ είναι ισοσκελές με $AB = A\\Gamma$ και $\\angle \\Gamma = 2 \\cdot \\angle A$. Το τετράπλευρο $A\\Gamma\\Delta E$ είναι τετράγωνο.\n\n(α) Να βρείτε πόσες μοίρες είναι η γωνία $\\angle AEB$.\n\n(β) Να βρείτε πόσες μοίρες είναι οι γωνίες $\\angle BA\\Delta$ και $\\angle BE\\Gamma$.\n\nΣημείωση: Να κάνετε το δικό σας σχήμα στο φύλλο με τις απαντήσεις σας."
+          "statement": "Στο διπλανό σχήμα το τρίγωνο $AB\\Gamma$ είναι ισοσκελές με $AB = A\\Gamma$ και $\\angle \\Gamma = 2 \\cdot \\angle A$. Το τετράπλευρο $A\\Gamma\\Delta E$ είναι τετράγωνο.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/euklidis_2019_B_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>\n\n(α) Να βρείτε πόσες μοίρες είναι η γωνία $\\angle AEB$.\n\n(β) Να βρείτε πόσες μοίρες είναι οι γωνίες $\\angle BA\\Delta$ και $\\angle BE\\Gamma$.\n\nΣημείωση: Να κάνετε το δικό σας σχήμα στο φύλλο με τις απαντήσεις σας."
         }
       ],
       "Γ_Γυμνασίου": [
@@ -150,7 +150,7 @@
         {
           "id": 27,
           "αριθμός": 3,
-          "statement": "Στο διπλανό σχήμα δίνεται ο κύκλος διαμέτρου $AB = 2R$ και η γωνία $\\angle \\Gamma O\\Delta = 90^\\circ$. Οι ευθείες $A\\Delta$ και $B\\Gamma$ τέμνονται στο σημείο $Z$, ενώ οι ευθείες $A\\Gamma$ και $B\\Delta$ τέμνονται στο σημείο $E$.\n\n(α) Να βρείτε πόσες μοίρες είναι οι γωνίες $\\angle \\Gamma A\\Delta$ και $\\angle \\Gamma B\\Delta$.\n\n(β) Να αποδείξετε ότι: $EZ = 2R$.\n\nΣημείωση: Να κάνετε στο φύλλο των απαντήσεων σας το δικό σας σχήμα."
+          "statement": "Στο διπλανό σχήμα δίνεται ο κύκλος διαμέτρου $AB = 2R$ και η γωνία $\angle \Gamma O\Delta = 90^\circ$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/euklidis_2019_G_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div> Οι ευθείες $A\\Delta$ και $B\\Gamma$ τέμνονται στο σημείο $Z$, ενώ οι ευθείες $A\\Gamma$ και $B\\Delta$ τέμνονται στο σημείο $E$.\n\n(α) Να βρείτε πόσες μοίρες είναι οι γωνίες $\\angle \\Gamma A\\Delta$ και $\\angle \\Gamma B\\Delta$.\n\n(β) Να αποδείξετε ότι: $EZ = 2R$.\n\nΣημείωση: Να κάνετε στο φύλλο των απαντήσεων σας το δικό σας σχήμα."
         },
         {
           "id": 28,
