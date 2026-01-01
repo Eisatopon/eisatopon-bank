@@ -43,7 +43,7 @@
         {
           "id": 8,
           "αριθμός": 4,
-          "statement": "Στο διπλανό σχήμα το τρίγωνο $AB\\Gamma$ είναι ισοσκελές ($AB=A\\Gamma$) με $\\angle A = 40^\\circ$ και για το σημείο $\\Delta$ ισχύει ότι: $\\Delta A = \\Delta B = \\Delta\\Gamma$. Αν η $\\Gamma M$ είναι παράλληλη στην $A\\Delta$ και το τρίγωνο $ABE$ είναι ισοσκελές ($AB = AE$), να αποδείξετε ότι:\n\n(α) η $A\\Delta$ είναι διχοτόμος της γωνίας $\\angle BA\\Gamma$.\n\n(β) $\\angle \\Gamma AE = 100^\\circ$.\n\n(γ) η $AM$ είναι κάθετη στην $\\Gamma E$."
+          "statement": "Στο διπλανό σχήμα το τρίγωνο $AB\\Gamma$ είναι ισοσκελές ($AB=A\\Gamma$) με $\\angle A = 40^\\circ$ και για το σημείο $\\Delta$ ισχύει ότι: $\\Delta A = \\Delta B = \\Delta\\Gamma$. Αν η $\\Gamma M$ είναι παράλληλη στην $A\\Delta$ και το τρίγωνο $ABE$ είναι ισοσκελές ($AB = AE$),<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/thalis_2018_G_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div> να αποδείξετε ότι:\n\n(α) η $A\\Delta$ είναι διχοτόμος της γωνίας $\\angle BA\\Gamma$.\n\n(β) $\\angle \\Gamma AE = 100^\\circ$.\n\n(γ) η $AM$ είναι κάθετη στην $\\Gamma E$."
         }
       ],
       "Α_Λυκείου": [
