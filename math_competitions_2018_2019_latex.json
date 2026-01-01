@@ -11,7 +11,7 @@
         {
           "id": 2,
           "αριθμός": 2,
-          "statement": "Στο διπλανό σχήμα το τρίγωνο $AB\\Gamma$ είναι ισοσκελές ($AB = A\\Gamma$), με $\\angle A = 40^\\circ$, και $A\\Delta$ είναι η διχοτόμος της γωνίας $\\angle A$. Επίσης τα τρίγωνα $ABE$ και $ABH$ είναι ισοσκελή με $EA = EB$ και $AB = AH$. Να αποδείξετε ότι:\n\n(α) $\\angle AHB = 20^\\circ$\n\n(β) $\\angle A\\Gamma H = 40^\\circ$\n\n(γ) η $HB$ είναι η διχοτόμος της γωνίας $\\angle AH\\Gamma$."
+          "statement": "Στο διπλανό σχήμα το τρίγωνο $AB\\Gamma$ είναι ισοσκελές ($AB = A\\Gamma$), με $\\angle A = 40^\\circ$, και $A\\Delta$ είναι η διχοτόμος της γωνίας $\\angle A$. Επίσης τα τρίγωνα $ABE$ και $ABH$ είναι ισοσκελή με $EA = EB$ και $AB = AH$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/thalis_2018_B_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div> Να αποδείξετε ότι:\n\n(α) $\\angle AHB = 20^\\circ$\n\n(β) $\\angle A\\Gamma H = 40^\\circ$\n\n(γ) η $HB$ είναι η διχοτόμος της γωνίας $\\angle AH\\Gamma$."
         },
         {
           "id": 3,
