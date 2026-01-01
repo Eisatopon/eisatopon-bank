@@ -1,0 +1,125 @@
+#!/usr/bin/env python3
+"""
+Add 4 images to math_competitions_2018_2019_latex.json
+Run this script in the same directory as your JSON file
+
+Usage:
+    python3 add_images_to_2018_2019.py
+"""
+
+import json
+import sys
+import os
+
+def main():
+    input_file = 'math_competitions_2018_2019_latex.json'
+    output_file = 'math_competitions_2018_2019_latex_WITH_IMAGES.json'
+    
+    # Check if input file exists
+    if not os.path.exists(input_file):
+        print(f"❌ Error: {input_file} not found!")
+        print(f"   Make sure this script is in the same directory as your JSON file")
+        sys.exit(1)
+    
+    print("=" * 70)
+    print("Adding 4 images to 2018-2019 JSON")
+    print("=" * 70)
+    print()
+    
+    # Read the JSON file
+    print(f"📖 Reading {input_file}...")
+    with open(input_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    print(f"   File size: {len(content):,} bytes")
+    print()
+    
+    # Apply 4 modifications
+    modifications_made = 0
+    
+    # 1. Θαλής Β' Γυμνασίου Problem 2
+    print("1️⃣  Adding image to Θαλής Β' Γυμνασίου Πρόβλημα 2...")
+    old1 = 'και $AB = AH$. Να αποδείξετε ότι:'
+    new1 = "και $AB = AH$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/thalis_2018_B_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div> Να αποδείξετε ότι:"
+    
+    if old1 in content:
+        content = content.replace(old1, new1, 1)
+        modifications_made += 1
+        print("   ✅ Image added!")
+    else:
+        print("   ⚠️  Pattern not found - skipping")
+    
+    # 2. Θαλής Γ' Γυμνασίου Problem 4
+    print("2️⃣  Adding image to Θαλής Γ' Γυμνασίου Πρόβλημα 4...")
+    old2 = '($AB = AE$), να αποδείξετε ότι:'
+    new2 = "($AB = AE$),<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/thalis_2018_G_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div> να αποδείξετε ότι:"
+    
+    if old2 in content:
+        content = content.replace(old2, new2, 1)
+        modifications_made += 1
+        print("   ✅ Image added!")
+    else:
+        print("   ⚠️  Pattern not found - skipping")
+    
+    # 3. Ευκλείδης Β' Γυμνασίου Problem 2
+    print("3️⃣  Adding image to Ευκλείδης Β' Γυμνασίου Πρόβλημα 2...")
+    old3 = 'είναι τετράγωνο.\\n\\n(α) Να βρείτε'
+    new3 = "είναι τετράγωνο.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/euklidis_2019_B_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>\\n\\n(α) Να βρείτε"
+    
+    if old3 in content:
+        content = content.replace(old3, new3, 1)
+        modifications_made += 1
+        print("   ✅ Image added!")
+    else:
+        print("   ⚠️  Pattern not found - skipping")
+    
+    # 4. Ευκλείδης Γ' Γυμνασίου Problem 3
+    print("4️⃣  Adding image to Ευκλείδης Γ' Γυμνασίου Πρόβλημα 3...")
+    old4 = '$\\\\angle \\\\Gamma O\\\\Delta = 90^\\\\circ$. Οι ευθείες'
+    new4 = "$\\\\angle \\\\Gamma O\\\\Delta = 90^\\\\circ$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/euklidis_2019_G_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div> Οι ευθείες"
+    
+    if old4 in content:
+        content = content.replace(old4, new4, 1)
+        modifications_made += 1
+        print("   ✅ Image added!")
+    else:
+        print("   ⚠️  Pattern not found - skipping")
+    
+    print()
+    print(f"📊 Summary: {modifications_made}/4 images added")
+    print()
+    
+    # Verify it's still valid JSON
+    print("🔍 Verifying JSON validity...")
+    try:
+        json.loads(content)
+        print("   ✅ JSON is valid!")
+    except json.JSONDecodeError as e:
+        print(f"   ❌ JSON is invalid: {e}")
+        sys.exit(1)
+    
+    # Write output file
+    print(f"💾 Writing {output_file}...")
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(content)
+    
+    print(f"   File size: {len(content):,} bytes")
+    print()
+    print("=" * 70)
+    print("✅ SUCCESS!")
+    print("=" * 70)
+    print()
+    print(f"Output file: {output_file}")
+    print()
+    print("Next steps:")
+    print(f"1. Rename {output_file}")
+    print(f"   to math_competitions_2018_2019_latex.json")
+    print("2. Upload to GitHub along with the 4 image files:")
+    print("   - thalis_2018_B_gymnasiou_2.png")
+    print("   - thalis_2018_G_gymnasiou_4.png")
+    print("   - euklidis_2019_B_gymnasiou_2.png")
+    print("   - euklidis_2019_G_gymnasiou_3.png")
+    print()
+
+if __name__ == '__main__':
+    main()
