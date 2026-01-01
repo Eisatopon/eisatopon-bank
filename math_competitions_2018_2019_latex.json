@@ -150,7 +150,7 @@
         {
           "id": 27,
           "αριθμός": 3,
-          "statement": "Στο διπλανό σχήμα δίνεται ο κύκλος διαμέτρου $AB = 2R$ και η γωνία $\angle \Gamma O\Delta = 90^\circ$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/euklidis_2019_G_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div> Οι ευθείες $A\\Delta$ και $B\\Gamma$ τέμνονται στο σημείο $Z$, ενώ οι ευθείες $A\\Gamma$ και $B\\Delta$ τέμνονται στο σημείο $E$.\n\n(α) Να βρείτε πόσες μοίρες είναι οι γωνίες $\\angle \\Gamma A\\Delta$ και $\\angle \\Gamma B\\Delta$.\n\n(β) Να αποδείξετε ότι: $EZ = 2R$.\n\nΣημείωση: Να κάνετε στο φύλλο των απαντήσεων σας το δικό σας σχήμα."
+          "statement": "Στο διπλανό σχήμα δίνεται ο κύκλος διαμέτρου $AB = 2R$ και η γωνία $\\angle \\Gamma O\\Delta = 90^\\circ$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/eisatopon/eisatopon-bank/main/images/euklidis_2019_G_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div> Οι ευθείες $A\\Delta$ και $B\\Gamma$ τέμνονται στο σημείο $Z$, ενώ οι ευθείες $A\\Gamma$ και $B\\Delta$ τέμνονται στο σημείο $E$.\n\n(α) Να βρείτε πόσες μοίρες είναι οι γωνίες $\\angle \\Gamma A\\Delta$ και $\\angle \\Gamma B\\Delta$.\n\n(β) Να αποδείξετε ότι: $EZ = 2R$.\n\nΣημείωση: Να κάνετε στο φύλλο των απαντήσεων σας το δικό σας σχήμα."
         },
         {
           "id": 28,
