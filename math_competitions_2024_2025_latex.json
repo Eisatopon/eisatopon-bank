@@ -210,7 +210,7 @@
         {
           "id": 37,
           "αριθμός": 2,
-          "statement": "Το τετράγωνο $AB\\Gamma\\Delta$ του διπλανού σχήματος υποδιαιρείται με το τμήμα $EZ$ σε δύο ορθογώνια $ABZE$ και $EZ\\Gamma\\Delta$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/archimidis_2025_mikroi_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>Δίνεται ότι $AE > E\\Delta$. Τα μήκη όλων των πλευρών των δύο ορθογωνίων είναι θετικοί ακέραιοι. Αν η διαφορά των εμβαδών των δύο ορθογωνίων είναι $24$, να προσδιορίσετε το εμβαδόν του τετραγώνου $AB\\Gamma\\Delta$."
+          "statement": "Το τετράγωνο $AB\\Gamma\\Delta$ του διπλανού σχήματος υποδιαιρείται με το τμήμα $EZ$ σε δύο ορθογώνια $ABZE$ και $EZ\\Gamma\\Delta$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/archimidis_2025_mikroi_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>\n\nΔίνεται ότι $AE > E\\Delta$. Τα μήκη όλων των πλευρών των δύο ορθογωνίων είναι θετικοί ακέραιοι. Αν η διαφορά των εμβαδών των δύο ορθογωνίων είναι $24$, να προσδιορίσετε το εμβαδόν του τετραγώνου $AB\\Gamma\\Delta$."
         },
         {
           "id": 38,
