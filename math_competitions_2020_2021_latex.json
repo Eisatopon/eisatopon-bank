@@ -16,7 +16,7 @@
         {
           "id": 3,
           "αριθμός": 3,
-          "statement": "Στο διπλανό σχήμα οι ευθείες $AB$ και $H\\Gamma$ είναι παράλληλες και οι ευθείες $B\\Gamma$ και $AH$ είναι παράλληλες. Το σημείο $\\Delta$ ανήκει στο ευθύγραμμο τμήμα $B\\Gamma$ και οι ευθείες $A\\Delta$ και $BH$ τέμνονται στο σημείο $Z$ έτσι ώστε να ισχύει: $AZ = B\\Gamma$. Επίσης οι ευθείες $A\\Delta$ και $HE$ είναι παράλληλες και οι ευθείες $ZE$ και $AH$ είναι παράλληλες. Αν $\\angle AZH = \\omega$, τότε:\n\n(α) Να βρείτε τη γωνία $\\angle \\Gamma\\Delta Z$ συναρτήσει του $\\omega$.\n\n(β) Να αποδείξετε ότι οι ευθείες $AE$ και $ZH$ είναι κάθετες.\n\n(Σημείωση: Να σχεδιάσετε στην κόλλα σας το δικό σας σχήμα)"
+          "statement": "Στο διπλανό σχήμα οι ευθείες $AB$ και $H\\Gamma$ είναι παράλληλες και οι ευθείες $B\\Gamma$ και $AH$ είναι παράλληλες. Το σημείο $\\Delta$ ανήκει στο ευθύγραμμο τμήμα $B\\Gamma$ και οι ευθείες $A\\Delta$ και $BH$ τέμνονται στο σημείο $Z$ έτσι ώστε να ισχύει: $AZ = B\\Gamma$. Επίσης οι ευθείες $A\\Delta$ και $HE$ είναι παράλληλες και οι ευθείες $ZE$ και $AH$ είναι παράλληλες.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2020_B_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div> Αν $\\angle AZH = \\omega$, τότε:\n\n(α) Να βρείτε τη γωνία $\\angle \\Gamma\\Delta Z$ συναρτήσει του $\\omega$.\n\n(β) Να αποδείξετε ότι οι ευθείες $AE$ και $ZH$ είναι κάθετες.\n\n(Σημείωση: Να σχεδιάσετε στην κόλλα σας το δικό σας σχήμα)"
         }
       ],
       "Γ_Γυμνασίου": [
@@ -28,7 +28,7 @@
         {
           "id": 5,
           "αριθμός": 2,
-          "statement": "Δίνεται ισοσκελές τρίγωνο $AB\\Gamma$ με $AB = A\\Gamma > B\\Gamma$. Εξωτερικά του τριγώνου $AB\\Gamma$ θεωρούμε ισόπλευρο τρίγωνο $A\\Gamma\\Delta$. Προεκτείνουμε τη διάμεσο $AM$ του τριγώνου $AB\\Gamma$ προς το μέρος του $A$ κατά τμήμα $AE = AB$. Να αποδείξετε ότι:\n\n$$\\angle AB\\Gamma = \\angle \\Gamma E\\Delta = 30^\\circ$$\n\n(Σημείωση: Να σχεδιάσετε στην κόλλα σας το δικό σας σχήμα)"
+          "statement": "Δίνεται ισοσκελές τρίγωνο $AB\\Gamma$ με $AB = A\\Gamma > B\\Gamma$. Εξωτερικά του τριγώνου $AB\\Gamma$ θεωρούμε ισόπλευρο τρίγωνο $A\\Gamma\\Delta$.<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2020_G_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div> Προεκτείνουμε τη διάμεσο $AM$ του τριγώνου $AB\\Gamma$ προς το μέρος του $A$ κατά τμήμα $AE = AB$. Να αποδείξετε ότι:\n\n$$\\angle AB\\Gamma = \\angle \\Gamma E\\Delta = 30^\\circ$$\n\n(Σημείωση: Να σχεδιάσετε στην κόλλα σας το δικό σας σχήμα)"
         },
         {
           "id": 6,
