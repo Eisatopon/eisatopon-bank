@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Διαγωνισμοί ΕΜΕ - Τράπεζα Θεμάτων</title>
-
+    
     <!-- MathJax -->
     <script>
         MathJax = {
@@ -26,9 +26,13 @@
     </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-
+    
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -53,7 +57,10 @@
             border-bottom: 4px solid #5a67d8;
         }
 
-        .header-icon { font-size: 4em; margin-bottom: 15px; }
+        .header-icon {
+            font-size: 4em;
+            margin-bottom: 15px;
+        }
 
         .header h1 {
             font-size: 3em;
@@ -61,9 +68,14 @@
             text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
         }
 
-        .header p { font-size: 1.3em; opacity: 0.95; }
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
 
-        .content { padding: 40px 30px; }
+        .content {
+            padding: 40px 30px;
+        }
 
         .section-title {
             font-size: 1.8em;
@@ -77,7 +89,7 @@
             background: #f8f9fa;
             padding: 30px;
             border-radius: 12px;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.08);
         }
 
@@ -103,6 +115,12 @@
             width: 100%;
         }
 
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 4px rgba(102,126,234,0.15);
+        }
+
         .filter-actions {
             display: flex;
             gap: 15px;
@@ -116,10 +134,22 @@
             border-radius: 8px;
             font-weight: 600;
             cursor: pointer;
+            transition: all 0.3s;
         }
 
-        .btn-primary { background: #667eea; color: white; }
-        .btn-secondary { background: #6c757d; color: white; }
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5a67d8;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
 
         .results-info {
             background: #e8eaf6;
@@ -131,7 +161,7 @@
             margin-bottom: 25px;
         }
 
-        /* === COVID NOTE === */
+        /* ===== ΣΗΜΕΙΩΣΗ COVID ===== */
         .covid-note {
             background: #fff3cd;
             border-left: 6px solid #ff9800;
@@ -150,9 +180,12 @@
         .covid-note li {
             margin-bottom: 6px;
         }
-        /* ================== */
+        /* ========================= */
 
-        .questions-grid { display: grid; gap: 25px; }
+        .questions-grid {
+            display: grid;
+            gap: 25px;
+        }
 
         .empty-state {
             text-align: center;
@@ -185,10 +218,81 @@
         <div class="section-title">🔍 Αναζήτηση Θεμάτων</div>
 
         <div class="filters">
-            <!-- (τα φίλτρα παραμένουν ΑΚΡΙΒΩΣ όπως ήταν) -->
+            <div class="filter-grid">
+
+                <div class="filter-item">
+                    <label>📅 Σχολικό Έτος</label>
+                    <select id="year">
+                        <option value="">Επιλέξτε έτος</option>
+                        <option value="2025-2026">2025-2026</option>
+                        <option value="2024-2025">2024-2025</option>
+                        <option value="2023-2024">2023-2024</option>
+                        <option value="2022-2023">2022-2023</option>
+                        <option value="2021-2022">2021-2022</option>
+                        <option value="2020-2021">2020-2021</option>
+                        <option value="2019-2020">2019-2020</option>
+                        <option value="2018-2019">2018-2019</option>
+                        <option value="2017-2018">2017-2018</option>
+                        <option value="2016-2017">2016-2017</option>
+                        <option value="2015-2016">2015-2016</option>
+                        <option value="2014-2015">2014-2015</option>
+                        <option value="2013-2014">2013-2014</option>
+                        <option value="2012-2013">2012-2013</option>
+                        <option value="2011-2012">2011-2012</option>
+                        <option value="2010-2011">2010-2011</option>
+                        <option value="2009-2010">2009-2010</option>
+                        <option value="2007-2008">2007-2008</option>
+                        <option value="2006-2007">2006-2007</option>
+                        <option value="2005-2006">2005-2006</option>
+                        <option value="2004-2005">2004-2005</option>
+                        <option value="2003-2004">2003-2004</option>
+                        <option value="2002-2003">2002-2003</option>
+                        <option value="2001-2002">2001-2002</option>
+                        <option value="2000-2001">2000-2001</option>
+                        <option value="1999-2000">1999-2000</option>
+                        <option value="1998-1999">1998-1999</option>
+                        <option value="1997-1998">1997-1998</option>
+                        <option value="1996-1997">1996-1997</option>
+                        <option value="1995-1996">1995-1996</option>
+                    </select>
+                </div>
+
+                <div class="filter-item">
+                    <label>🏅 Φάση Διαγωνισμού</label>
+                    <select id="phase" onchange="updateGradeOptions()">
+                        <option value="">Όλες οι φάσεις</option>
+                        <option value="Θαλής">Θαλής (Α' Φάση)</option>
+                        <option value="Ευκλείδης">Ευκλείδης (Β' Φάση)</option>
+                        <option value="Αρχιμήδης">Αρχιμήδης (Γ' Φάση)</option>
+                    </select>
+                </div>
+
+                <div class="filter-item">
+                    <label>🎓 Τάξη / Κατηγορία</label>
+                    <select id="grade">
+                        <option value="">Όλες οι τάξεις</option>
+                    </select>
+                </div>
+
+                <div class="filter-item">
+                    <label>🎯 Αριθμός Θέματος</label>
+                    <select id="problem">
+                        <option value="">Όλα τα θέματα</option>
+                        <option value="1">Θέμα 1</option>
+                        <option value="2">Θέμα 2</option>
+                        <option value="3">Θέμα 3</option>
+                        <option value="4">Θέμα 4</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="filter-actions">
+                <button class="btn btn-primary" onclick="searchProblems()">🔍 Αναζήτηση</button>
+                <button class="btn btn-secondary" onclick="resetFilters()">🔄 Επαναφορά</button>
+            </div>
         </div>
 
-        <!-- ✅ ΣΗΜΕΙΩΣΗ COVID -->
         <div class="covid-note">
             ⚠️ <strong>Σημείωση:</strong>
             Λόγω της πανδημίας <strong>COVID-19</strong> <em>δεν πραγματοποιήθηκαν</em>:
@@ -198,7 +302,7 @@
             </ul>
         </div>
 
-        <div class="results-info" id="resultsInfo" style="display:none;">
+        <div class="results-info" id="resultsInfo" style="display: none;">
             Βρέθηκαν <strong id="resultsCount">0</strong> θέματα
         </div>
 
@@ -208,13 +312,194 @@
                 <h3>Επιλέξτε φίλτρα για να δείτε θέματα</h3>
             </div>
         </div>
+<script>
+    // JSON URLs - Converted format (year/προβλήματα structure)
+    const DATA_URLS = {
+        "2025-2026": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2025_2026_latex.json",
+        "2024-2025": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2024_2025_latex.json",
+        "2023-2024": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2023_2024_latex.json",
+        "2022-2023": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2022_2023_latex.json",
+        "2021-2022": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2021_2022_latex.json",
+        "2020-2021": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2020_2021_latex.json",
+        "2019-2020": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2019_2020_latex.json",
+        "2018-2019": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2018_2019_latex.json",
+        "2017-2018": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2017_2018_latex.json",
+        "2016-2017": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2016_2017_latex.json",
+        "2015-2016": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2015_2016_latex.json",
+        "2014-2015": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2014_2015_latex.json",
+        "2013-2014": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2013_2014_latex.json",
+        "2012-2013": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2012_2013_latex.json",
+        "2011-2012": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2011_2012_latex.json",
+        "2010-2011": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2010_2011_latex.json",
+        "2009-2010": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2009_2010_latex.json",
+        "2008-2009": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2008_2009_latex.json",
+        "2007-2008": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2007_2008_latex.json",
+        "2006-2007": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2006_2007_latex.json",
+        "2005-2006": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2005_2006_latex.json",
+        "2004-2005": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2004_2005_latex.json",
+        "2003-2004": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2003_2004_latex.json",
+        "2002-2003": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2002_2003_latex.json",
+        "2001-2002": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2001_2002_latex.json",
+        "2000-2001": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_2000_2001_latex.json",
+        "1999-2000": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_1999_2000_latex.json",
+        "1998-1999": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_1998_1999_latex.json",
+        "1997-1998": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_1997_1998_latex.json",
+        "1996-1997": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_1996_1997_latex.json",
+        "1995-1996": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/math_competitions_1995_1996_latex.json"
+    };
 
-    </div>
+    let allProblems = [];
+    let loadedYear = null;
+    const selectedProblems = [];
 
-    <div class="footer">
-        eisatopon.gr © 2025 – Διαγωνισμοί Ελληνικής Μαθηματικής Εταιρείας
-    </div>
+    const GRADE_LABELS = {
+        "Β_Γυμνασίου": "Β' Γυμνασίου",
+        "Γ_Γυμνασίου": "Γ' Γυμνασίου",
+        "Α_Λυκείου": "Α' Λυκείου",
+        "Β_Λυκείου": "Β' Λυκείου",
+        "Γ_Λυκείου": "Γ' Λυκείου",
+        "μικροί": "Αρχιμήδης (μικροί)",
+        "μεγάλοι": "Αρχιμήδης (μεγάλοι)"
+    };
 
-</div>
+    function updateGradeOptions() {
+        const phase = document.getElementById("phase").value;
+        const gradeSel = document.getElementById("grade");
+
+        if (phase === "Αρχιμήδης") {
+            gradeSel.innerHTML = `
+                <option value="">Όλες οι κατηγορίες</option>
+                <option value="μικροί">Αρχιμήδης (μικροί)</option>
+                <option value="μεγάλοι">Αρχιμήδης (μεγάλοι)</option>
+            `;
+        } else {
+            gradeSel.innerHTML = `
+                <option value="">Όλες οι τάξεις</option>
+                <option value="Β_Γυμνασίου">Β' Γυμνασίου</option>
+                <option value="Γ_Γυμνασίου">Γ' Γυμνασίου</option>
+                <option value="Α_Λυκείου">Α' Λυκείου</option>
+                <option value="Β_Λυκείου">Β' Λυκείου</option>
+                <option value="Γ_Λυκείου">Γ' Λυκείου</option>
+            `;
+        }
+    }
+
+    function typesetMath(el = document.body) {
+        if (!window.mathJaxReady) {
+            setTimeout(() => typesetMath(el), 200);
+            return;
+        }
+        MathJax.typesetClear([el]);
+        MathJax.typesetPromise([el]).catch(err => console.error('MathJax error:', err));
+    }
+
+    async function loadYearIfNeeded(year) {
+        if (loadedYear === year && allProblems.length > 0) return true;
+
+        const url = DATA_URLS[year];
+        if (!url) {
+            alert('❌ Δεν υπάρχουν δεδομένα για το έτος ' + year);
+            return false;
+        }
+
+        try {
+            const resp = await fetch(url);
+            if (!resp.ok) throw new Error('HTTP ' + resp.status);
+            const data = JSON.parse(await resp.text());
+
+            allProblems = [];
+            const rawProblems = data["προβλήματα"] || {};
+            const recordYear = data.year || year;
+
+            Object.entries(rawProblems).forEach(([phaseName, perPhaseObj]) => {
+                Object.entries(perPhaseObj || {}).forEach(([gradeKey, list]) => {
+                    (list || []).forEach(p => {
+                        allProblems.push({
+                            id: p.id || (allProblems.length + 1),
+                            year: recordYear,
+                            phase: phaseName,
+                            grade: gradeKey,
+                            problem_number: String(p["αριθμός"] ?? ""),
+                            content: String(p["statement"] ?? "")
+                        });
+                    });
+                });
+            });
+
+            loadedYear = year;
+            return true;
+        } catch (e) {
+            alert('❌ Πρόβλημα φόρτωσης: ' + e.message);
+            return false;
+        }
+    }
+
+    function getFilteredProblems() {
+        const y = year.value;
+        const ph = phase.value;
+        const gr = grade.value;
+        const pr = problem.value;
+
+        return allProblems.filter(p => {
+            if (y && p.year !== y) return false;
+            if (ph && p.phase !== ph) return false;
+            if (gr && p.grade !== gr) return false;
+            if (pr && p.problem_number !== pr) return false;
+            return true;
+        });
+    }
+
+    function searchProblems() {
+        if (!year.value) {
+            alert("⚠️ Παρακαλώ επιλέξτε σχολικό έτος");
+            return;
+        }
+
+        questionsGrid.innerHTML = '<div class="empty-state"><div style="font-size:4em;">⏳</div><h3>Φόρτωση...</h3></div>';
+
+        loadYearIfNeeded(year.value).then(ok => {
+            if (!ok) return;
+            displayProblems(getFilteredProblems());
+        });
+    }
+
+    function displayProblems(problems) {
+        if (!problems.length) {
+            questionsGrid.innerHTML = '<div class="empty-state"><div style="font-size:4em;">❌</div><h3>Δεν βρέθηκαν θέματα</h3></div>';
+            resultsInfo.style.display = "none";
+            return;
+        }
+
+        resultsCount.textContent = problems.length;
+        resultsInfo.style.display = "block";
+
+        questionsGrid.innerHTML = problems.map(p => `
+            <div class="question-card">
+                <div class="card-header">
+                    <div class="card-badges">
+                        <span class="badge badge-year">${p.year}</span>
+                        <span class="badge badge-phase">${p.phase}</span>
+                        <span class="badge badge-grade">${GRADE_LABELS[p.grade] || p.grade}</span>
+                    </div>
+                    <button class="btn btn-sm btn-outline" onclick="addToExam(${p.id})">✅ Προσθήκη</button>
+                </div>
+                <div class="card-title">Θέμα ${p.problem_number}</div>
+                <div class="card-content">${p.content.replace(/\n\n/g, '<br><br>')}</div>
+            </div>
+        `).join("");
+
+        setTimeout(() => typesetMath(questionsGrid), 300);
+    }
+
+    function resetFilters() {
+        year.value = phase.value = grade.value = problem.value = "";
+        updateGradeOptions();
+        questionsGrid.innerHTML = '<div class="empty-state"><div style="font-size:5em;">📋</div><h3>Επιλέξτε φίλτρα</h3></div>';
+        resultsInfo.style.display = "none";
+    }
+
+    document.addEventListener("DOMContentLoaded", updateGradeOptions);
+</script>
+
 </body>
 </html>
