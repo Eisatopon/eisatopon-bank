@@ -11,7 +11,7 @@
         {
           "id": 2,
           "αριθμός": 2,
-          "statement": "Στο διπλανό σχήμα η ευθεία $Ay$ είναι παράλληλη προς την πλευρά $B\\Gamma$ του τριγώνου $AB\\Gamma$ και διχοτόμος της γωνίας $\\widehat{\\Gamma\\Delta}_x$.\n\nΔίνεται ακόμη ότι: $\\widehat{BA}\\Gamma = 62^\\circ$ και $AB = A\\Delta$.\n\n(α) Να βρείτε τις γωνίες $\\widehat{B}$ και $\\widehat{\\Gamma}$ του τριγώνου $AB\\Gamma$.\n\n(β) Να εξηγήσετε γιατί η $B\\Delta$ είναι διχοτόμος της γωνίας $\\widehat{AB}\\Gamma$."
+          "statement": "Στο διπλανό σχήμα η ευθεία $Ay$ είναι παράλληλη προς την πλευρά $B\\Gamma$ του τριγώνου $AB\\Gamma$ και διχοτόμος της γωνίας $\\widehat{\\Gamma\\Delta}_x$.\n\nΔίνεται ακόμη ότι: $\\widehat{BA}\\Gamma = 62^\\circ$ και $AB = A\\Delta$.\n\n(α) Να βρείτε τις γωνίες $\\widehat{B}$ και $\\widehat{\\Gamma}$ του τριγώνου $AB\\Gamma$.\n\n(β) Να εξηγήσετε γιατί η $B\\Delta$ είναι διχοτόμος της γωνίας $\\widehat{AB}\\Gamma$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2008_B_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 3,
@@ -38,7 +38,7 @@
         {
           "id": 7,
           "αριθμός": 3,
-          "statement": "Στο παρακάτω σχήμα δίνονται ορθογώνιο $AB\\Gamma\\Delta$ με πλευρές $AB = \\alpha$, $A\\Delta = 2\\alpha$ και τέσσερα ημικύκλια εξωτερικά του ορθογωνίου. Ο εξωτερικός κύκλος έχει κέντρο το σημείο τομής $O$ των διαγωνίων του ορθογωνίου. Να υπολογιστεί συναρτήσει του $\\alpha$ το εμβαδόν του γραμμοσκιασμένου χωρίου."
+          "statement": "Στο παρακάτω σχήμα δίνονται ορθογώνιο $AB\\Gamma\\Delta$ με πλευρές $AB = \\alpha$, $A\\Delta = 2\\alpha$ και τέσσερα ημικύκλια εξωτερικά του ορθογωνίου. Ο εξωτερικός κύκλος έχει κέντρο το σημείο τομής $O$ των διαγωνίων του ορθογωνίου. Να υπολογιστεί συναρτήσει του $\\alpha$ το εμβαδόν του γραμμοσκιασμένου χωρίου.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2008_G_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 8,
@@ -133,7 +133,7 @@
         {
           "id": 24,
           "αριθμός": 4,
-          "statement": "Στο διπλανό σχήμα το τετράπλευρο $AB\\Gamma\\Delta$ είναι ρόμβος πλευράς $\\alpha$ και το τρίγωνο $\\Gamma EZ$ είναι ισόπλευρο πλευράς $\\alpha$.\n\nΤα σημεία $E$ και $Z$ βρίσκονται πάνω στις πλευρές $AB$ και $A\\Delta$, αντίστοιχα. Να βρείτε τις γωνίες του ρόμβου $AB\\Gamma\\Delta$."
+          "statement": "Στο διπλανό σχήμα το τετράπλευρο $AB\\Gamma\\Delta$ είναι ρόμβος πλευράς $\\alpha$ και το τρίγωνο $\\Gamma EZ$ είναι ισόπλευρο πλευράς $\\alpha$.\n\nΤα σημεία $E$ και $Z$ βρίσκονται πάνω στις πλευρές $AB$ και $A\\Delta$, αντίστοιχα. Να βρείτε τις γωνίες του ρόμβου $AB\\Gamma\\Delta$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2009_B_gymnasiou_4.PNG' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         }
       ],
       "Γ_Γυμνασίου": [
@@ -155,7 +155,7 @@
         {
           "id": 28,
           "αριθμός": 4,
-          "statement": "Στο παρακάτω σχήμα δίνεται ότι: το σημείο $\\Delta$ είναι το μέσο της πλευράς $A\\Gamma = \\beta$ του τριγώνου $AB\\Gamma$, $\\widehat{\\Delta AE} = 90^\\circ$, $\\pi \\Delta E'$ είναι κάθετη προς την ευθεία $B\\Gamma$,\n\n$\\widehat{A\\Delta E} = \\widehat{\\Gamma\\Delta Z} = \\theta$ και $\\widehat{\\Gamma Z}\\Delta = 30^\\circ$.\n\nα) Να βρείτε τη γωνία $\\theta$.\n\nβ) Να υπολογίσετε το μήκος του ευθύγραμμου τμήματος $EZ$ συναρτήσει του $\\beta$."
+          "statement": "Στο παρακάτω σχήμα δίνεται ότι: το σημείο $\\Delta$ είναι το μέσο της πλευράς $A\\Gamma = \\beta$ του τριγώνου $AB\\Gamma$, $\\widehat{\\Delta AE} = 90^\\circ$, $\\pi \\Delta E'$ είναι κάθετη προς την ευθεία $B\\Gamma$,\n\n$\\widehat{A\\Delta E} = \\widehat{\\Gamma\\Delta Z} = \\theta$ και $\\widehat{\\Gamma Z}\\Delta = 30^\\circ$.\n\nα) Να βρείτε τη γωνία $\\theta$.\n\nβ) Να υπολογίσετε το μήκος του ευθύγραμμου τμήματος $EZ$ συναρτήσει του $\\beta$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2009_G_gymnasiou_4.PNG' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         }
       ],
       "Α_Λυκείου": [
