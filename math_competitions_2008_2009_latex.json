@@ -155,7 +155,7 @@
         {
           "id": 28,
           "αριθμός": 4,
-          "statement": "Στο παρακάτω σχήμα δίνεται ότι: το σημείο $\\Delta$ είναι το μέσο της πλευράς $A\\Gamma = \\beta$ του τριγώνου $AB\\Gamma$, $\\widehat{\\Delta AE} = 90^\\circ$, $\\pi \\Delta E'$ είναι κάθετη προς την ευθεία $B\\Gamma$,\n\n$\\widehat{A\\Delta E} = \\widehat{\\Gamma\\Delta Z} = \\theta$ και $\\widehat{\\Gamma Z}\\Delta = 30^\\circ$.\n\nα) Να βρείτε τη γωνία $\\theta$.\n\nβ) Να υπολογίσετε το μήκος του ευθύγραμμου τμήματος $EZ$ συναρτήσει του $\\beta$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2009_G_gymnasiou_4.PNG' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
+          "statement": "Στο παρακάτω σχήμα δίνεται ότι: το σημείο $\\Delta$ είναι το μέσο της πλευράς $A\\Gamma = \\beta$ του τριγώνου $AB\\Gamma$, $\\widehat{\\Delta AE} = 90^\\circ$, η $\\Delta E$ είναι κάθετη προς την ευθεία $B\\Gamma$,\n\n$\\widehat{A\\Delta E} = \\widehat{\\Gamma\\Delta Z} = \\theta$ και $\\widehat{\\Gamma Z}\\Delta = 30^\\circ$.\n\nα) Να βρείτε τη γωνία $\\theta$.\n\nβ) Να υπολογίσετε το μήκος του ευθύγραμμου τμήματος $EZ$ συναρτήσει του $\\beta$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2009_G_gymnasiou_4.PNG' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         }
       ],
       "Α_Λυκείου": [
