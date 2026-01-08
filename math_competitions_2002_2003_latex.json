@@ -11,8 +11,7 @@
         {
           "id": 2,
           "αριθμός": 2,
-          "statement": "Ένα τετράγωνο πλευράς $4$ διαιρείται με τέσσερις ευθείες παράλληλες ανά δύο προς τις πλευρές του σε σχήματα, έτσι ώστε τα τέσσερα γραμμοσκιασμένα από αυτά, όπως φαίνεται στο σχήμα, είναι τετράγωνα πλευράς $1$. Πόσα είναι τα τετράγωνα που υπάρχουν στο σχήμα και ποιο είναι το άθροισμα των εμβαδών τους;",
-          "image": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2002_B_gymnasiou_2.png"
+          "statement": "Ένα τετράγωνο πλευράς $4$ διαιρείται με τέσσερις ευθείες παράλληλες ανά δύο προς τις πλευρές του σε σχήματα, έτσι ώστε τα τέσσερα γραμμοσκιασμένα από αυτά, όπως φαίνεται στο σχήμα, είναι τετράγωνα πλευράς $1$. Πόσα είναι τα τετράγωνα που υπάρχουν στο σχήμα και ποιο είναι το άθροισμα των εμβαδών τους;\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2002_B_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 3,
@@ -29,8 +28,7 @@
         {
           "id": 5,
           "αριθμός": 2,
-          "statement": "Στο σχήμα υπάρχουν $10$ ίσα τετράγωνα μεταξύ των ορθογωνίων $AB\\Gamma\\Delta$ και $EZ H\\Theta$. Να υπολογίσετε την πλευρά των τετραγώνων, αν είναι γνωστό ότι το άθροισμα των εμβαδών τους ισούται αριθμητικά με το άθροισμα των περιμέτρων των ορθογωνίων $AB\\Gamma\\Delta$ και $EZ H\\Theta$.",
-          "image": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2002_G_gymnasiou_2.png"
+          "statement": "Στο σχήμα υπάρχουν $10$ ίσα τετράγωνα μεταξύ των ορθογωνίων $AB\\Gamma\\Delta$ και $EZ H\\Theta$. Να υπολογίσετε την πλευρά των τετραγώνων, αν είναι γνωστό ότι το άθροισμα των εμβαδών τους ισούται αριθμητικά με το άθροισμα των περιμέτρων των ορθογωνίων $AB\\Gamma\\Delta$ και $EZ H\\Theta$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2002_G_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 6,
@@ -40,8 +38,7 @@
         {
           "id": 7,
           "αριθμός": 4,
-          "statement": "Στο σχήμα η $\\Gamma E$ είναι διάμετρος του κύκλου $(O, R)$, η γωνία $\\Gamma\\widehat{O}B = \\omega$ είναι τριπλάσια της γωνίας $A\\widehat{O}E = \\varphi$ και το εμβαδό του κυκλικού τομέα $(O, AEB)$ ισούται με $\\frac{1}{3}\\pi R^2$.\n\nα) Να βρείτε τις γωνίες $\\omega$, $\\varphi$.\n\nβ) Να βρείτε το λόγο $\\frac{E_{\\kappa.\\tau.}(BZ\\Gamma)}{E_{\\kappa.\\tau.}(AH\\Gamma)}$ των εμβαδών των κυκλικών τομέων $BZ\\Gamma$ και $AH\\Gamma$.",
-          "image": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2002_G_gymnasiou_4.png"
+          "statement": "Στο σχήμα η $\\Gamma E$ είναι διάμετρος του κύκλου $(O, R)$, η γωνία $\\Gamma\\widehat{O}B = \\omega$ είναι τριπλάσια της γωνίας $A\\widehat{O}E = \\varphi$ και το εμβαδό του κυκλικού τομέα $(O, AEB)$ ισούται με $\\frac{1}{3}\\pi R^2$.\n\nα) Να βρείτε τις γωνίες $\\omega$, $\\varphi$.\n\nβ) Να βρείτε το λόγο $\\frac{E_{\\kappa.\\tau.}(BZ\\Gamma)}{E_{\\kappa.\\tau.}(AH\\Gamma)}$ των εμβαδών των κυκλικών τομέων $BZ\\Gamma$ και $AH\\Gamma$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2002_G_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         }
       ],
       "Α_Λυκείου": [
@@ -58,8 +55,7 @@
         {
           "id": 10,
           "αριθμός": 3,
-          "statement": "Στο διπλανό σχήμα φαίνεται οικόπεδο $AB\\Gamma\\Delta$ σχήματος ορθογωνίου με πλευρές $AB = \\alpha$ και $B\\Gamma = \\beta$. Από το οικόπεδο θα κοπούν δύο δρόμοι $EZ H\\Theta$ και $AIK\\Lambda$. Ο δρόμος $EZ H\\Theta$ σχήματος ορθογωνίου έχει πλάτος $ZH = y$, ενώ ο δρόμος $AIK\\Lambda$ σχήματος παραλληλογράμμου έχει πλευρά $AI = x$.\n\nα) Να εκφράσετε το εμβαδό του οικοπέδου που απομένει μετά την αποκοπή των δύο δρόμων, ως συνάρτηση των $\\alpha$, $\\beta$, $x$ και $y$.\n\nβ) Να εκφράσετε το πλάτος $y$ του δρόμου $AIK\\Lambda$ ως συνάρτηση του $x$, αν είναι γνωστό ότι $\\Delta\\widehat{I}A = 30^\\circ$.",
-          "image": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2002_A_lykeiou_3.png"
+          "statement": "Στο διπλανό σχήμα φαίνεται οικόπεδο $AB\\Gamma\\Delta$ σχήματος ορθογωνίου με πλευρές $AB = \\alpha$ και $B\\Gamma = \\beta$. Από το οικόπεδο θα κοπούν δύο δρόμοι $EZ H\\Theta$ και $AIK\\Lambda$. Ο δρόμος $EZ H\\Theta$ σχήματος ορθογωνίου έχει πλάτος $ZH = y$, ενώ ο δρόμος $AIK\\Lambda$ σχήματος παραλληλογράμμου έχει πλευρά $AI = x$.\n\nα) Να εκφράσετε το εμβαδό του οικοπέδου που απομένει μετά την αποκοπή των δύο δρόμων, ως συνάρτηση των $\\alpha$, $\\beta$, $x$ και $y$.\n\nβ) Να εκφράσετε το πλάτος $y$ του δρόμου $AIK\\Lambda$ ως συνάρτηση του $x$, αν είναι γνωστό ότι $\\Delta\\widehat{I}A = 30^\\circ$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2002_A_lykeiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 11,
@@ -127,8 +123,7 @@
         {
           "id": 22,
           "αριθμός": 3,
-          "statement": "Οι μη παράλληλες πλευρές ισοσκελούς τραπεζίου έχουν μήκη $10$ m, η κάθε μία, ενώ η περίμετρός του είναι $152$ m. Το ύψος του είναι το $\\frac{1}{9}$ της μεγάλης βάσης και οι βάσεις του είναι ανάλογες προς τους αριθμούς $6$ και $5$. Να υπολογίσετε το εμβαδόν του τραπεζίου.",
-          "image": "https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2002_B_gymnasiou_3.PNG"
+          "statement": "Οι μη παράλληλες πλευρές ισοσκελούς τραπεζίου έχουν μήκη $10$ m, η κάθε μία, ενώ η περίμετρός του είναι $152$ m. Το ύψος του είναι το $\\frac{1}{9}$ της μεγάλης βάσης και οι βάσεις του είναι ανάλογες προς τους αριθμούς $6$ και $5$. Να υπολογίσετε το εμβαδόν του τραπεζίου.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2002_B_gymnasiou_3.PNG' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 23,
