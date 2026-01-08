@@ -16,7 +16,7 @@
         {
           "id": 3,
           "αριθμός": 3,
-          "statement": "Στο διπλανό σχήμα η ευθεία $M\\Lambda$ είναι κάθετη προς την πλευρά $B\\Gamma$ στο μέσον της $M$.\n\nΕπιπλέον δίνονται: $M\\Gamma = 5cm$, $M\\widehat{\\Lambda}\\Gamma = 45^\\circ$, $\\widehat{AB}\\Lambda = 30^\\circ$ και το εμβαδόν $E$ του τριγώνου $AB\\Gamma$ ίσο με $35cm^2$.\n\nΝα βρείτε:\n\n(α) τις γωνίες $\\widehat{A}$, $\\widehat{B}$, $\\widehat{\\Gamma}$ του τριγώνου $AB\\Gamma$.\n\n(β) το ύψος $A\\Delta$ του τριγώνου $AB\\Gamma$."
+          "statement": "Στο διπλανό σχήμα η ευθεία $M\\Lambda$ είναι κάθετη προς την πλευρά $B\\Gamma$ στο μέσον της $M$.\n\nΕπιπλέον δίνονται: $M\\Gamma = 5cm$, $M\\widehat{\\Lambda}\\Gamma = 45^\\circ$, $\\widehat{AB}\\Lambda = 30^\\circ$ και το εμβαδόν $E$ του τριγώνου $AB\\Gamma$ ίσο με $35cm^2$.\n\nΝα βρείτε:\n\n(α) τις γωνίες $\\widehat{A}$, $\\widehat{B}$, $\\widehat{\\Gamma}$ του τριγώνου $AB\\Gamma$.\n\n(β) το ύψος $A\\Delta$ του τριγώνου $AB\\Gamma$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2004_B_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 4,
@@ -33,7 +33,7 @@
         {
           "id": 6,
           "αριθμός": 2,
-          "statement": "Στο διπλανό σχήμα το σημείο $M$ είναι μέσον της πλευράς $B\\Gamma$ και η μεσοκάθετη της $B\\Gamma$ τέμνει τη $A\\Gamma$ στο $\\Lambda$.\n\nΕπίσης δίνονται: $M\\widehat{\\Lambda}\\Gamma = 45^\\circ$, $\\widehat{AB}\\Lambda = 30^\\circ$, $\\Delta\\Gamma = \\kappa$. Να βρείτε:\n\n(α) τις γωνίες $\\widehat{A}$, $\\widehat{B}$, $\\widehat{\\Gamma}$ του τριγώνου $AB\\Gamma$.\n\n(β) τις πλευρές $AB$, $B\\Gamma$, $\\Gamma\\Lambda$ συναρτήσει του $\\kappa$.\n\n(γ) το εμβαδόν του τριγώνου $AB\\Gamma$."
+          "statement": "Στο διπλανό σχήμα το σημείο $M$ είναι μέσον της πλευράς $B\\Gamma$ και η μεσοκάθετη της $B\\Gamma$ τέμνει τη $A\\Gamma$ στο $\\Lambda$.\n\nΕπίσης δίνονται: $M\\widehat{\\Lambda}\\Gamma = 45^\\circ$, $\\widehat{AB}\\Lambda = 30^\\circ$, $\\Delta\\Gamma = \\kappa$. Να βρείτε:\n\n(α) τις γωνίες $\\widehat{A}$, $\\widehat{B}$, $\\widehat{\\Gamma}$ του τριγώνου $AB\\Gamma$.\n\n(β) τις πλευρές $AB$, $B\\Gamma$, $\\Gamma\\Lambda$ συναρτήσει του $\\kappa$.\n\n(γ) το εμβαδόν του τριγώνου $AB\\Gamma$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2004_G_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 7,
@@ -43,7 +43,7 @@
         {
           "id": 8,
           "αριθμός": 4,
-          "statement": "Στο διπλανό σχήμα δίνεται ορθογώνιο $AB\\Gamma\\Delta$ με $AB = 2A\\Delta = 2\\alpha$, το μέσο $E$ και $Z$ των $A\\Delta$ και $\\Gamma\\Delta$, αντίστοιχα, και οι τρεις κύκλοι με κέντρα $A$, $E$ και $H$ και ακτίνες, η οποία τέμνονται μέσα στο ορθογώνιο $AB\\Gamma\\Delta$ στα σημεία $K$ και $\\Lambda$. Να βρείτε:\n\n(α) το εμβαδόν του τριγώνου $K\\Lambda E$\n\n(β) το εμβαδόν του τετραπλεύρου $K\\Lambda NM$, όπου $M$ το μέσον της $AE$ και $N$ μέσον της $EB$\n\n(γ) το εμβαδόν του τριγώνου κοιτωπολυμορφωσου τριγώνου $EK\\Lambda$"
+          "statement": "Στο διπλανό σχήμα δίνεται ορθογώνιο $AB\\Gamma\\Delta$ με $AB = 2A\\Delta = 2\\alpha$, το μέσο $E$ και $Z$ των $A\\Delta$ και $\\Gamma\\Delta$, αντίστοιχα, και οι τρεις κύκλοι με κέντρα $A$, $E$ και $H$ και ακτίνες, η οποία τέμνονται μέσα στο ορθογώνιο $AB\\Gamma\\Delta$ στα σημεία $K$ και $\\Lambda$. Να βρείτε:\n\n(α) το εμβαδόν του τριγώνου $K\\Lambda E$\n\n(β) το εμβαδόν του τετραπλεύρου $K\\Lambda NM$, όπου $M$ το μέσον της $AE$ και $N$ μέσον της $EB$\n\n(γ) το εμβαδόν του τριγώνου κοιτωπολυμορφωσου τριγώνου $EK\\Lambda$\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2004_G_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         }
       ],
       "Α_Λυκείου": [
@@ -128,7 +128,7 @@
         {
           "id": 23,
           "αριθμός": 3,
-          "statement": "Δέκα σημεία είναι τοποθετημένα σε σχήμα ισόπλευρου τριγώνου όπως στο σχήμα. Να διαγραφεί ο ελάχιστος αριθμός σημείων έτσι ώστε τα υπόλοιπα να μη σχηματίζουν κανένα ισόπλευρο τρίγωνο."
+          "statement": "Δέκα σημεία είναι τοποθετημένα σε σχήμα ισόπλευρου τριγώνου όπως στο σχήμα. Να διαγραφεί ο ελάχιστος αριθμός σημείων έτσι ώστε τα υπόλοιπα να μη σχηματίζουν κανένα ισόπλευρο τρίγωνο.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2005_B_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 24,
@@ -194,7 +194,7 @@
         {
           "id": 35,
           "αριθμός": 3,
-          "statement": "Οι κορυφές $A$, $B$, $\\Gamma$, $\\Delta$, $E$ μιας τεθλασμένης γραμμής βρίσκονται πάνω σε ένα κύκλο όπως στο σχήμα.\n\nΕίναι $\\widehat{AB}\\Gamma = \\widehat{B\\Gamma}\\Delta = \\widehat{\\Gamma\\Delta}E = 45^\\circ$. Να δείξετε ότι $AB^2 + \\Gamma\\Delta^2 = B\\Gamma^2 + \\Delta E^2$."
+          "statement": "Οι κορυφές $A$, $B$, $\\Gamma$, $\\Delta$, $E$ μιας τεθλασμένης γραμμής βρίσκονται πάνω σε ένα κύκλο όπως στο σχήμα.\n\nΕίναι $\\widehat{AB}\\Gamma = \\widehat{B\\Gamma}\\Delta = \\widehat{\\Gamma\\Delta}E = 45^\\circ$. Να δείξετε ότι $AB^2 + \\Gamma\\Delta^2 = B\\Gamma^2 + \\Delta E^2$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2005_B_lykeiou_3.PNG' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 36,
