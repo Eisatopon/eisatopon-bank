@@ -43,7 +43,7 @@
         {
           "id": 8,
           "αριθμός": 4,
-          "statement": "Στο διπλανό σχήμα δίνεται ορθογώνιο $AB\\Gamma\\Delta$ με $AB = 2A\\Delta = 2\\alpha$, το μέσο $E$ και $Z$ των $A\\Delta$ και $\\Gamma\\Delta$, αντίστοιχα, και οι τρεις κύκλοι με κέντρα $A$, $E$ και $H$ και ακτίνες, η οποία τέμνονται μέσα στο ορθογώνιο $AB\\Gamma\\Delta$ στα σημεία $K$ και $\\Lambda$. Να βρείτε:\n\n(α) το εμβαδόν του τριγώνου $K\\Lambda E$\n\n(β) το εμβαδόν του τετραπλεύρου $K\\Lambda NM$, όπου $M$ το μέσον της $AE$ και $N$ μέσον της $EB$\n\n(γ) το εμβαδόν του τριγώνου κοιτωπολυμορφωσου τριγώνου $EK\\Lambda$\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2004_G_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
+          "statement": "Στο διπλανό σχήμα δίνεται ορθογώνιο $AB\\Gamma\\Delta$ με $AB = 2A\\Delta = 2\\alpha$, το μέσο $E$ και $Z$ των $A\\Delta$ και $\\Gamma\\Delta$, αντίστοιχα, και οι τρεις κύκλοι με κέντρα $A$, $E$ και $H$ και ακτίνες, η οποία τέμνονται μέσα στο ορθογώνιο $AB\\Gamma\\Delta$ στα σημεία $K$ και $\\Lambda$. Να βρείτε:\n\n(α) το εμβαδόν του τριγώνου $K\\Lambda E$\n\n(β) το εμβαδόν του τετραπλεύρου $K\\Lambda NM$, όπου $M$ το μέσον της $AE$ και $N$ μέσον της $EB$\n\n(γ) το εμβαδόν του καμπυλόγραμμου τριγώνου $EK\\Lambda$\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2004_G_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         }
       ],
       "Α_Λυκείου": [
