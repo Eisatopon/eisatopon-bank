@@ -16,7 +16,7 @@
         {
           "id": 3,
           "αριθμός": 3,
-          "statement": "Στο τραπέζιο $AB\\Gamma\\Delta(AB//\\Gamma\\Delta)$ του σχήματος δίνονται $B\\widehat{\\Delta}\\Delta = \\widehat{AB}\\Gamma$ και ότι τα τρίγωνα $AB\\Gamma$ και $A\\Gamma\\Delta$ είναι ισοσκελή με $AB = A\\Gamma$ και $A\\Delta = \\Gamma\\Delta$.\n\nα) Να αποδείξετε ότι η $A\\Gamma$ διχοτομεί τη γωνία $B\\widehat{\\Delta}\\Delta$.\n\nβ) Να υπολογιστεί η γωνία $\\omega = \\widehat{B}$."
+          "statement": "Στο τραπέζιο $AB\\Gamma\\Delta(AB//\\Gamma\\Delta)$ του σχήματος δίνονται $B\\widehat{\\Delta}\\Delta = \\widehat{AB}\\Gamma$ και ότι τα τρίγωνα $AB\\Gamma$ και $A\\Gamma\\Delta$ είναι ισοσκελή με $AB = A\\Gamma$ και $A\\Delta = \\Gamma\\Delta$.\n\nα) Να αποδείξετε ότι η $A\\Gamma$ διχοτομεί τη γωνία $B\\widehat{\\Delta}\\Delta$.\n\nβ) Να υπολογιστεί η γωνία $\\omega = \\widehat{B}$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2003_B_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 4,
@@ -38,12 +38,12 @@
         {
           "id": 7,
           "αριθμός": 3,
-          "statement": "Δίνεται ισοσκελές τρίγωνο $AB\\Gamma$ ($AB = A\\Gamma$). Με διάμετρο την πλευρά $A\\Gamma$ γράφουμε κύκλο που τέμνει την πλευρά $B\\Gamma$ στο $\\Delta$.\n\nΦέρουμε ακόμα την $Ax\\perp A\\Delta$ που τέμνει τον κύκλο στο $E$.\n\nα) Να αποδείξετε ότι το $A\\Delta$ είναι ύψος του τριγώνου $AB\\Gamma$.\n\nβ) Να συγκρίνετε το εμβαδό του τριγώνου $AB\\Gamma$ προς το εμβαδό του τετραπλεύρου $A\\Delta\\Gamma E$."
+          "statement": "Δίνεται ισοσκελές τρίγωνο $AB\\Gamma$ ($AB = A\\Gamma$). Με διάμετρο την πλευρά $A\\Gamma$ γράφουμε κύκλο που τέμνει την πλευρά $B\\Gamma$ στο $\\Delta$.\n\nΦέρουμε ακόμα την $Ax\\perp A\\Delta$ που τέμνει τον κύκλο στο $E$.\n\nα) Να αποδείξετε ότι το $A\\Delta$ είναι ύψος του τριγώνου $AB\\Gamma$.\n\nβ) Να συγκρίνετε το εμβαδό του τριγώνου $AB\\Gamma$ προς το εμβαδό του τετραπλεύρου $A\\Delta\\Gamma E$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2003_G_gymnasiou_3.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 8,
           "αριθμός": 4,
-          "statement": "Στο σχήμα το τετράγωνο $AB\\Gamma\\Delta$ έχει πλευρά $AB = 4\\alpha$ και $AE = BZ = \\Gamma H = \\Delta\\Theta = \\alpha$.\n\nΤο τετράπλευρο $IK\\Lambda M$ είναι τετράγωνο. Να υπολογίσετε:\n\n1) Την $AH$ ως συνάρτηση του $\\alpha$.\n\n2) Το εμβαδό του τετραγώνου $IK\\Lambda M$ ως συνάρτηση του $\\alpha$."
+          "statement": "Στο σχήμα το τετράγωνο $AB\\Gamma\\Delta$ έχει πλευρά $AB = 4\\alpha$ και $AE = BZ = \\Gamma H = \\Delta\\Theta = \\alpha$.\n\nΤο τετράπλευρο $IK\\Lambda M$ είναι τετράγωνο. Να υπολογίσετε:\n\n1) Την $AH$ ως συνάρτηση του $\\alpha$.\n\n2) Το εμβαδό του τετραγώνου $IK\\Lambda M$ ως συνάρτηση του $\\alpha$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_2003_G_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         }
       ],
       "Α_Λυκείου": [
@@ -118,7 +118,7 @@
         {
           "id": 21,
           "αριθμός": 1,
-          "statement": "Να εκφράσετε την παράσταση:\n\n$$A = 3 \\cdot 2^{18} \\cdot [1 - (-1)^3] - 2^6 \\cdot (3^2 - 1) \\cdot (3^3 - 11) \\cdot (3^4 - 17)$$\n\nως δύναμη με βάση το $2$."
+          "statement": "Να εκφράσετε την παράσταση:\n\n$$A = 3 \\cdot 2^{18} \\cdot [1 - (-1)^3] - 2^6 \\cdot (3^2 - 1) \\cdot (3^3 - 11) \\cdot (3^4 - 17)$$\n\nως δύναμη με βάση το $2$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2003_B_gymnasiou_1.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 22,
