@@ -118,12 +118,12 @@
         {
           "id": 21,
           "αριθμός": 1,
-          "statement": "Να εκφράσετε την παράσταση:\n\n$$A = 3 \\cdot 2^{18} \\cdot [1 - (-1)^3] - 2^6 \\cdot (3^2 - 1) \\cdot (3^3 - 11) \\cdot (3^4 - 17)$$\n\nως δύναμη με βάση το $2$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2003_B_gymnasiou_1.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
+          "statement": "Να εκφράσετε την παράσταση:\n\n$$A = 3 \\cdot 2^{18} \\cdot [1 - (-1)^3] - 2^6 \\cdot (3^2 - 1) \\cdot (3^3 - 11) \\cdot (3^4 - 17)$$\n\nως δύναμη με βάση το $2$."
         },
         {
           "id": 22,
           "αριθμός": 2,
-          "statement": "Στο σχήμα, τα τρίγωνα $ABO$ και $\\Gamma\\Delta O$ είναι ισόπλευρα πλευράς $\\alpha$. Η $BE$ είναι κάθετη προς τη $B\\Delta$. Να αποδείξετε ότι:\n\nα) $\\widehat{AE}B = 30^\\circ$.\n\nβ) $EB = B\\Gamma$.\n\nγ) $EA = AB$."
+          "statement": "Στο σχήμα, τα τρίγωνα $ABO$ και $\\Gamma\\Delta O$ είναι ισόπλευρα πλευράς $\\alpha$. Η $BE$ είναι κάθετη προς τη $B\\Delta$. Να αποδείξετε ότι:\n\nα) $\\widehat{AE}B = 30^\\circ$.\n\nβ) $EB = B\\Gamma$.\n\nγ) $EA = AB$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2004_B_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 23,
@@ -145,7 +145,7 @@
         {
           "id": 26,
           "αριθμός": 2,
-          "statement": "Στο σχήμα, τα τρίγωνα $ABO$ και $\\Gamma\\Delta O$ είναι ισόπλευρα πλευράς $\\alpha$.\n\nΗ $BE$ είναι κάθετη προς τη $B\\Delta$. Να υπολογίσετε:\n\nα) Τη γωνία $\\widehat{AE}B$.\n\nβ) Τα τμήματα $EA$, $EB$ και $E\\Delta$ συναρτήσει του $\\alpha$."
+          "statement": "Στο σχήμα, τα τρίγωνα $ABO$ και $\\Gamma\\Delta O$ είναι ισόπλευρα πλευράς $\\alpha$.\n\nΗ $BE$ είναι κάθετη προς τη $B\\Delta$. Να υπολογίσετε:\n\nα) Τη γωνία $\\widehat{AE}B$.\n\nβ) Τα τμήματα $EA$, $EB$ και $E\\Delta$ συναρτήσει του $\\alpha$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2004_G_gymnasiou_2.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 27,
@@ -155,7 +155,7 @@
         {
           "id": 28,
           "αριθμός": 4,
-          "statement": "Στο σχήμα έχουμε κύκλο $(O, R)$ και κάθετες διαμέτρους $AB \\perp \\Gamma\\Delta$.\n\nΗ χορδή $EZ$ είναι μεσοκάθετος της ακτίνας $O\\Gamma$.\n\nα) Τις χορδές $\\Gamma Z$ και $ZB$ συναρτήσει της ακτίνας $R$.\n\nβ) Το εμβαδό του τριγώνου $B\\Gamma Z$ συναρτήσει της ακτίνας $R$."
+          "statement": "Στο σχήμα έχουμε κύκλο $(O, R)$ και κάθετες διαμέτρους $AB \\perp \\Gamma\\Delta$.\n\nΗ χορδή $EZ$ είναι μεσοκάθετος της ακτίνας $O\\Gamma$.\n\nα) Τις χορδές $\\Gamma Z$ και $ZB$ συναρτήσει της ακτίνας $R$.\n\nβ) Το εμβαδό του τριγώνου $B\\Gamma Z$ συναρτήσει της ακτίνας $R$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2004_G_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         }
       ],
       "Α_Λυκείου": [
