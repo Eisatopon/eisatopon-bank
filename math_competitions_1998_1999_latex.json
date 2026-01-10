@@ -50,7 +50,7 @@
         {
           "id": 9,
           "αριθμός": 1,
-          "statement": "Να βρεθούν όλες οι πραγματικές λύσεις της εξίσωσης\n\n$$x^2 + x = \\frac{42}{x^2 + x + 1}$$\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_1998_A_lykeiou_1.png.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
+          "statement": "Να βρεθούν όλες οι πραγματικές λύσεις της εξίσωσης\n\n$$x^2 + x = \\frac{42}{x^2 + x + 1}$$\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_1998_A_lykeiou_1.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 10,
@@ -99,7 +99,7 @@
         {
           "id": 18,
           "αριθμός": 2,
-          "statement": "Αν το τρίγωνο $AB\\Gamma$ είναι ορθογώνιο, να προσδιοριστεί η μέγιστη τιμή της παράστασης\n\n$$K = \\varepsilon\\varphi\\frac{A}{2}\\varepsilon\\varphi\\frac{B}{2}\\varepsilon\\varphi\\frac{\\Gamma}{2}$$"
+          "statement": "Αν το τρίγωνο $AB\\Gamma$ είναι ορθογώνιο, να προσδιοριστεί η μέγιστη τιμή της παράστασης\n\n$$K = \\text{εφ}\\frac{A}{2} \\cdot \\text{εφ}\\frac{B}{2} \\cdot \\text{εφ}\\frac{\\Gamma}{2}$$"
         },
         {
           "id": 19,
@@ -140,12 +140,12 @@
         {
           "id": 25,
           "αριθμός": 1,
-          "statement": "Στο σχήμα τα τετράπλευρα $AB\\Gamma\\Delta$, $\\Delta EZH$ και $\\Theta IK\\Lambda$ είναι τετράγωνα και οι περιγεγραμμένοι κύκλοι τους τέμνονται στα $\\Gamma$ και $M$. Να υπολογιστεί ο λόγος των εμβαδών\n\n$$\\frac{(\\Delta EZH)}{(\\Theta IK\\Lambda)}$$"
+          "statement": "Στο σχήμα τα τετράπλευρα $AB\\Gamma\\Delta$, $\\Delta EZH$ και $\\Theta IK\\Lambda$ είναι τετράγωνα και οι περιγεγραμμένοι κύκλοι τους τέμνονται στα $\\Gamma$ και $M$. Να υπολογιστεί ο λόγος των εμβαδών\n\n$$\\frac{(\\Delta EZH)}{(\\Theta IK\\Lambda)}$$\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_1999_G_gymnasiou_1.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 26,
           "αριθμός": 2,
-          "statement": "Δίνεται η παράσταση\n\n$$P(x) = (\\alpha + \\beta)^2x^2 - 4(\\alpha + \\beta)x + \\gamma^2 + 4$$\n\nόπου οι αριθμοί $\\alpha$, $\\beta$, $\\gamma$ είναι ακέραιοι, με $\\alpha > 0$, $\\beta > 0$ και $\\gamma \\geq 0$. Η παράσταση αυτή παίρνει την τιμή $()$ για $x = 1$. Να βρεθούν οι αριθμοί $\\alpha$, $\\beta$ και $\\gamma$."
+          "statement": "Δίνεται η παράσταση\n\n$$P(x) = (\\alpha + \\beta)^2x^2 - 4(\\alpha + \\beta)x + \\gamma^2 + 4$$\n\nόπου οι αριθμοί $\\alpha$, $\\beta$, $\\gamma$ είναι ακέραιοι, με $\\alpha > 0$, $\\beta > 0$ και $\\gamma \\geq 0$. Η παράσταση αυτή παίρνει την τιμή $0$ για $x = 1$. Να βρεθούν οι αριθμοί $\\alpha$, $\\beta$ και $\\gamma$."
         },
         {
           "id": 27,
@@ -184,7 +184,7 @@
         {
           "id": 33,
           "αριθμός": 1,
-          "statement": "Στο σχήμα τα τετράπλευρα $AB\\Gamma\\Delta$ και $\\Gamma EZH$ είναι τετράγωνα και οι περιγεγραμμένοι κύκλοι τους τέμνονται στα $\\Gamma$ και $M$. Να δειχτεί ότι:\n\n1) Τα σημεία $\\Delta$, $M$ και $H$ είναι συνευθειακά.\n\n2) Τα σημεία $M$, $B$ και $E$ είναι συνευθειακά.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_1999_B_lykeiou_1.png.PNG' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
+          "statement": "Στο σχήμα τα τετράπλευρα $AB\\Gamma\\Delta$ και $\\Gamma EZH$ είναι τετράγωνα και οι περιγεγραμμένοι κύκλοι τους τέμνονται στα $\\Gamma$ και $M$. Να δειχτεί ότι:\n\n1) Τα σημεία $\\Delta$, $M$ και $H$ είναι συνευθειακά.\n\n2) Τα σημεία $M$, $B$ και $E$ είναι συνευθειακά.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_1999_B_lykeiou_1.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 34,
@@ -194,7 +194,7 @@
         {
           "id": 35,
           "αριθμός": 3,
-          "statement": "Έστω κύκλος $(O, R)$ και χορδή του $B\\Gamma$ μήκους $\\alpha < 2R$. Σημείο $A$ κινείται στο τόξο $B\\widehat{\\Gamma}$ έτσι ώστε $B\\widehat{\\Gamma A\\Lambda} < 90^\\circ$. Να προσδιορίσετε τη θέση του $A$, για την οποία η παράσταση $AB^2 + A\\Gamma^2$ γίνεται μέγιστη και να βρείτε τη μέγιστη τιμή της παράστασης."
+          "statement": "Έστω κύκλος $(O, R)$ και χορδή του $B\\Gamma$ μήκους $\\alpha < 2R$. Σημείο $A$ κινείται στο τόξο $B\\widehat{\\Gamma}$ έτσι ώστε $B\\widehat{\\Gamma A} < 90^\\circ$. Να προσδιορίσετε τη θέση του $A$, για την οποία η παράσταση $AB^2 + A\\Gamma^2$ γίνεται μέγιστη και να βρείτε τη μέγιστη τιμή της παράστασης."
         },
         {
           "id": 36,
@@ -240,7 +240,7 @@
         {
           "id": 43,
           "αριθμός": 3,
-          "statement": "Σε προηγούμενη Μαθηματική Ολυμπιάδα για ένα από τα προβλήματα που τέθηκαν, στο οποίο η μέγιστη βαθμολογία ήταν $5$, είχαμε τα παρακάτω αποτελέσματα:\n\nΟ μέσος όρος των βαθμών των αγοριών ήταν $4$, ο μέσος όρος των βαθμών των κοριτσιών ήταν $3, 25$ και ο μέσος όρος των βαθμών του συνόλου των μαθητών ήταν $3, 6$.\n\nΝα βρείτε πόσα αγόρια και πόσα κορίτσια ήταν μέρος, αν ο αριθμός των μαθητών ήταν μεταξύ $3()$ και $5()$."
+          "statement": "Σε προηγούμενη Μαθηματική Ολυμπιάδα για ένα από τα προβλήματα που τέθηκαν, στο οποίο η μέγιστη βαθμολογία ήταν $5$, είχαμε τα παρακάτω αποτελέσματα:\n\nΟ μέσος όρος των βαθμών των αγοριών ήταν $4$, ο μέσος όρος των βαθμών των κοριτσιών ήταν $3{,}25$ και ο μέσος όρος των βαθμών του συνόλου των μαθητών ήταν $3{,}6$.\n\nΝα βρείτε πόσα αγόρια και πόσα κορίτσια ήταν μέρος, αν ο αριθμός των μαθητών ήταν μεταξύ $30$ και $50$."
         },
         {
           "id": 44,
