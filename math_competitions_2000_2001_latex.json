@@ -133,7 +133,7 @@
         {
           "id": 24,
           "αριθμός": 4,
-          "statement": "Στον παρακάτω πολλαπλασιασμό πρέπει να χρησιμοποιήσετε όλα τα ψηφία από $1$ έως $9$ και να συμπληρώσετε τα κενά τετράγωνα:\n\n$$\\begin{array}{ccc}\n & 2 & \\square & \\square \\\\\n\\times & & \\square & 8 \\\\\n\\hline\n5 & \\square & \\square & \\square\n\\end{array}$$\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2001_B_gymnasiou_4.PNG' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
+          "statement": "Στον παρακάτω πολλαπλασιασμό πρέπει να χρησιμοποιήσετε όλα τα ψηφία από $1$ έως $9$ και να συμπληρώσετε τα κενά τετράγωνα:\n\n$$\\begin{array}{ccc}\n & 2 & \\square & \\square \\\\\n\\times & & \\square & 8 \\\\\n\\hline\n5 & \\square & \\square & \\square\n\\end{array}$$\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2001_B_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         }
       ],
       "Γ_Γυμνασίου": [
