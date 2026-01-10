@@ -28,7 +28,7 @@
         {
           "id": 5,
           "αριθμός": 1,
-          "statement": "Ένα ορθογώνιο παραλληλόγραμμο διαιρείται σε $4$ μικρότερα ορθογώνια παραλληλόγραμμα με δύο ευθείες παράλληλες προς τις πλευρές του. Τα τρία απ' αυτά τα τέσσερα ορθογώνια έχουν εμβαδά $10$, $18$, $25\\text{ cm}^2$ αντίστοιχα. Να βρεθεί το εμβαδό του τέταρτου ορθογωνίου."
+          "statement": "Ένα ορθογώνιο παραλληλόγραμμο διαιρείται σε $4$ μικρότερα ορθογώνια παραλληλόγραμμα με δύο ευθείες παράλληλες προς τις πλευρές του. Τα τρία απ' αυτά τα τέσσερα ορθογώνια έχουν εμβαδά $10$, $18$, $25\\text{ cm}^2$ αντίστοιχα. Να βρεθεί το εμβαδό του τέταρτου ορθογωνίου.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_1998_G_gymnasiou_1.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 6,
@@ -50,7 +50,7 @@
         {
           "id": 9,
           "αριθμός": 1,
-          "statement": "Να βρεθούν όλες οι πραγματικές λύσεις της εξίσωσης\n\n$$x^2 + x = \\frac{42}{x^2 + x + 1}$$"
+          "statement": "Να βρεθούν όλες οι πραγματικές λύσεις της εξίσωσης\n\n$$x^2 + x = \\frac{42}{x^2 + x + 1}$$\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/thalis_1998_A_lykeiou_1.png.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 10,
@@ -118,7 +118,7 @@
         {
           "id": 21,
           "αριθμός": 1,
-          "statement": "Στο τραπέζιο $AB\\Gamma\\Delta$ του σχήματος έχουμε $\\hat{A} = \\hat{\\Delta} = 90^\\circ$, $AB = \\alpha$, $A\\Delta = \\beta$ και $\\Gamma\\Delta = \\gamma$. Οι αριθμοί $\\alpha$, $\\beta$, $\\gamma$ είναι ακέραιοι, ανάλογοι των αριθμών $1$, $2$, $3$ αντίστοιχα και έχουν άθροισμα $30$. Να βρεθεί το εμβαδόν του τραπεζίου $AB\\Gamma\\Delta$."
+          "statement": "Στο τραπέζιο $AB\\Gamma\\Delta$ του σχήματος έχουμε $\\hat{A} = \\hat{\\Delta} = 90^\\circ$, $AB = \\alpha$, $A\\Delta = \\beta$ και $\\Gamma\\Delta = \\gamma$. Οι αριθμοί $\\alpha$, $\\beta$, $\\gamma$ είναι ακέραιοι, ανάλογοι των αριθμών $1$, $2$, $3$ αντίστοιχα και έχουν άθροισμα $30$. Να βρεθεί το εμβαδόν του τραπεζίου $AB\\Gamma\\Delta$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_1999_B_gymnasiou_1.PNG' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 22,
@@ -133,7 +133,7 @@
         {
           "id": 24,
           "αριθμός": 4,
-          "statement": "Στο διπλανό πίνακα\n\n$$\\begin{array}{|c|c|c|} \\hline \\alpha & \\beta & \\gamma \\\\ \\hline \\delta & 0 & \\varepsilon \\\\ \\hline \\zeta & \\eta & \\theta \\\\ \\hline \\end{array}$$\n\nέχουν τοποθετηθεί οι ακέραιοι αριθμοί $\\alpha$, $\\beta$, $\\gamma$, $\\delta$, $\\varepsilon$, $\\zeta$, $\\eta$, $\\theta$ και το $0$ (μηδέν). Το άθροισμα των αριθμών κάθε γραμμής (οριζόντια), κάθε στήλης (κατακόρυφα) και κάθε διαγωνίου ισούται με $\\kappa$. Να δειχτεί ότι $\\kappa = 0$."
+          "statement": "Στο διπλανό πίνακα\n\n$$\\begin{array}{|c|c|c|} \\hline \\alpha & \\beta & \\gamma \\\\ \\hline \\delta & 0 & \\varepsilon \\\\ \\hline \\zeta & \\eta & \\theta \\\\ \\hline \\end{array}$$\n\nέχουν τοποθετηθεί οι ακέραιοι αριθμοί $\\alpha$, $\\beta$, $\\gamma$, $\\delta$, $\\varepsilon$, $\\zeta$, $\\eta$, $\\theta$ και το $0$ (μηδέν). Το άθροισμα των αριθμών κάθε γραμμής (οριζόντια), κάθε στήλης (κατακόρυφα) και κάθε διαγωνίου ισούται με $\\kappa$. Να δειχτεί ότι $\\kappa = 0$.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_1999_B_gymnasiou_4.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         }
       ],
       "Γ_Γυμνασίου": [
@@ -184,7 +184,7 @@
         {
           "id": 33,
           "αριθμός": 1,
-          "statement": "Στο σχήμα τα τετράπλευρα $AB\\Gamma\\Delta$ και $\\Gamma EZH$ είναι τετράγωνα και οι περιγεγραμμένοι κύκλοι τους τέμνονται στα $\\Gamma$ και $M$. Να δειχτεί ότι:\n\n1) Τα σημεία $\\Delta$, $M$ και $H$ είναι συνευθειακά.\n\n2) Τα σημεία $M$, $B$ και $E$ είναι συνευθειακά."
+          "statement": "Στο σχήμα τα τετράπλευρα $AB\\Gamma\\Delta$ και $\\Gamma EZH$ είναι τετράγωνα και οι περιγεγραμμένοι κύκλοι τους τέμνονται στα $\\Gamma$ και $M$. Να δειχτεί ότι:\n\n1) Τα σημεία $\\Delta$, $M$ και $H$ είναι συνευθειακά.\n\n2) Τα σημεία $M$, $B$ και $E$ είναι συνευθειακά.\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_1999_B_lykeiou_1.png.PNG' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>"
         },
         {
           "id": 34,
