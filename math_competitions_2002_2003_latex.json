@@ -113,7 +113,7 @@
         {
           "id": 20,
           "αριθμός": 1,
-          "statement": "Στο σχήμα οι ευθείες $\\varepsilon$ και $\\delta$ είναι παράλληλες, το τρίγωνο $AB\\Gamma$ είναι ισοσκελές με $AB = A\\Gamma = 8$, $AH = 6$ το ύψος, η $A\\Delta$ είναι δίκοτμος της $\\Gamma\\widehat{A}E$ και $\\Delta E//A\\Gamma$. Να υπολογίσετε:\n\nα) Το μήκος της $\\Gamma\\Delta$.\n\nβ) Το εμβαδόν του τετραπλεύρου $A\\Gamma\\Delta E$."
+          "statement": "Στο σχήμα οι ευθείες $\\varepsilon$ και $\\delta$ είναι παράλληλες, το τρίγωνο $AB\\Gamma$ είναι ισοσκελές με $AB = A\\Gamma = 8$, $AH = 6$ το ύψος, η $A\\Delta$ είναι δίκοτμος της $\\Gamma\\widehat{A}E$ και $\\Delta E//A\\Gamma$. Να υπολογίσετε:\n\n<div style='text-align: center; margin: 10px 0;'><img src='https://raw.githubusercontent.com/Eisatopon/eisatopon-bank/main/images/euklidis_2003_B_gymnasiou_1.png' alt='Σχήμα' style='max-width: 100%; height: auto;'/></div>\n\nα) Το μήκος της $\\Gamma\\Delta$.\n\nβ) Το εμβαδόν του τετραπλεύρου $A\\Gamma\\Delta E$."
         },
         {
           "id": 21,
